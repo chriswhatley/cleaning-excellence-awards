@@ -2,7 +2,7 @@
 
 return [
     'production' => false,
-    'baseUrl' => '',
-    'siteTitle' => 'Jigsaw + Tailwind CSS Starter Kit',
+    'baseUrl' => 'http://localhost:3000/',
+    'siteTitle' => 'SHE Awards',
     'collections' => [],
 ];

@@ -115,8 +115,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\DEV\open-source\jigsaw-tailwindcss\source\_assets\js\main.js */"./source/_assets/js/main.js");
-module.exports = __webpack_require__(/*! D:\DEV\open-source\jigsaw-tailwindcss\source\_assets\css\main.css */"./source/_assets/css/main.css");
+__webpack_require__(/*! /Users/chriswhatley/Projects/SHE Awards/source/_assets/js/main.js */"./source/_assets/js/main.js");
+module.exports = __webpack_require__(/*! /Users/chriswhatley/Projects/SHE Awards/source/_assets/css/main.css */"./source/_assets/css/main.css");
 
 
 /***/ })
