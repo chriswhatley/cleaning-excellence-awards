@@ -648,19 +648,45 @@ video {
   background-color: rgba(255, 194, 14, var(--bg-opacity))
 }
 
-.hero {
-  background-color: rgba(0, 0, 0, 0.25);
-  background-blend-mode: soft-light;
-  background-image: url('../video/she-awards-background-poster-compressed.jpg');
+.btn-primary {
+  display: inline-block;
+  text-align: center;
+  --bg-opacity: 1;
+  background-color: #FFC20E;
+  background-color: rgba(255, 194, 14, var(--bg-opacity));
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
+  letter-spacing: -0.05em
 }
 
-/* .webp .hero {
-	background-image: url(assets/video/she-awards-background-poster-compressed.jpg);
+.hero, .highlights-video {
+  background-color: rgba(0, 0, 0, 0.50);
+  background-blend-mode: soft-light;
+}
+
+.webp .hero {
+  background-image: url('../video/she-awards-background-poster-compressed.webp');
 }
 
 .no-webp .hero {
-	background-image: url(assets/video/she-awards-background-poster-compressed.jpg);
-}*/
+  background-image: url('../video/she-awards-background-poster-compressed.jpg');
+}
+
+.webp .host {
+  background-image: url('../images/layout/home-alistair-mcgowan-compressed.webp');
+}
+
+.no-webp .host {
+  background-image: url('../images/layout/home-alistair-mcgowan-compressed.jpg');
+}
 
 .stats h3::after {
   content: ' ';
@@ -671,6 +697,59 @@ video {
   background-color: #ffffff;
 }
 
+div[class*="gallery-tile-"] {
+  background-size: cover;
+  background-position: center;
+  overflow: hidden
+}
+
+.webp .gallery-tile-a {
+  background-image: url('../images/layout/home-gallery-tile-a-compressed.webp');
+}
+
+.no-webp .gallery-tile-a {
+  background-image: url('../images/layout/home-gallery-tile-a-compressed.jpg');
+}
+
+.webp .gallery-tile-b {
+  background-image: url('../images/layout/home-gallery-tile-b-compressed.webp');
+}
+
+.no-webp .gallery-tile-b {
+  background-image: url('../images/layout/home-gallery-tile-a-compressed.jpg');
+}
+
+.webp .gallery-tile-c {
+  background-image: url('../images/layout/home-gallery-tile-c-compressed.webp');
+}
+
+.no-webp .gallery-tile-c {
+  background-image: url('../images/layout/home-gallery-tile-a-compressed.jpg');
+}
+
+.webp .highlights-video {
+  background-image: url('../images/layout/banquet-compressed.webp');
+}
+
+.no-webp .highlights-video {
+  background-image: url('../images/layout/banquet-compressed.jpg');
+}
+
+.footer-link {
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, -webkit-transform;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, -webkit-transform;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  letter-spacing: -0.025em
+}
+
+.footer-link:hover {
+  --text-opacity: 1;
+  color: #FFC20E;
+  color: rgba(255, 194, 14, var(--text-opacity))
+}
+
 /* DEBUGGING - REMOVE FOR STAGING/PRODUCTION */
 
 /* DEBUGGING - REMOVE FOR PRODUCTION */
@@ -679,7 +758,7 @@ footer:nth-of-type(1):before {
   content: 'Viewport XS';
   position: fixed;
   bottom: 0;
-  left: 0;
+  right: 0;
   width: 125px;
   height: 80px;
   z-index: 99;

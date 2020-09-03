@@ -1,7 +1,7 @@
-<header class="fixed w-full px-3 py-4 lg:px-12 lg:py-6 bg-black text-white flex justify-between z-40">            
+<header class="fixed w-full px-3 py-4 lg:px-12 lg:py-6 bg-black text-white flex justify-between z-20">            
         
     <a href="/">
-        <img src="assets/images/layout/she-awards-nov20-logo.svg" alt="The SHE Awards 2020" class="h-12 lg:h-24 w-auto">
+        <img src="assets/images/layout/she-awards-nov20-logo.svg" alt="The SHE Awards 2020" class="h-16 lg:h-24 w-auto">
     </a>                
         
     <nav class="flex">
@@ -51,7 +51,7 @@
 			
 					<div class="my-6 flex items-start">
 						<div class="flex w-4/5 pl-3 md:pl-6">
-							<img src="assets/images/layout/she-awards-nov20-logo.svg" alt="The SHE Awards 2020" class="" @click="open = !open">		                    			
+							<img src="assets/images/layout/she-awards-nov20-logo.svg" alt="The SHE Awards 2020" class="w-18" @click="open = !open">		                    			
 						</div>
 						<div class="flex md:hidden w-1/5 justify-end p-2 pr-3 sm:pr-4">
 							<button @click="open = !open" class="z-20 text-yellow-500 focus:outline-none focus:border-blue-500 focus:shadow-outline-none">                                       

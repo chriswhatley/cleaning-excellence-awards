@@ -24,5 +24,6 @@ mix.options({
   .js(['source/_assets/js/main.js', 'source/_assets/js/modernizr-webp.js'], 'js/main.js')
   .purgeCss({
     folders: ['source'],
+    whitelistPatternsChildren: [/^no-webp/]
   })
   .version();

@@ -104,7 +104,153 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
 
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(n); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && Symbol.iterator in Object(iter)) return Array.from(iter); }
+
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+// Alpine 2.3.5
+window.sponsorSlideshow = function (slides) {
+  return {
+    title: 'SHE Awards Sponsors',
+    state: {
+      moving: false,
+      currentSlide: 0,
+      looping: false,
+      order: [],
+      nextSlideDirection: '',
+      userInteracted: false,
+      usedKeyboard: false
+    },
+    autoplayTimer: null,
+    attributes: {
+      direction: 'right-left',
+      duration: 1000,
+      timer: 3000
+    },
+    slides: [],
+    setup: function setup() {
+      var _this = this;
+
+      this.slides = slides.map(function (slide, index) {
+        slide.id = index + Date.now();
+        return slide;
+      }); // Cache the original order so that we can reorder on transition (to skip inbetween slides)
+
+      this.state.order = this.slides.map(function (slide) {
+        return slide.id;
+      });
+      var newSlideOrder = this.slides.filter(function (slide) {
+        return _this.current.id != slide.id;
+      });
+      newSlideOrder.unshift(this.current);
+      this.slides = newSlideOrder; // Start the autoslide
+
+      this.attributes.timer && this.autoPlay();
+    },
+
+    get current() {
+      var _this2 = this;
+
+      return this.slides.find(function (slide) {
+        return slide.id == _this2.state.order[_this2.state.currentSlide];
+      });
+    },
+
+    get previousSlide() {
+      return this.state.currentSlide - 1 > -1 ? this.state.currentSlide - 1 : this.state.currentSlide;
+    },
+
+    get nextSlide() {
+      return this.state.currentSlide + 1 < this.slides.length ? this.state.currentSlide + 1 : this.state.currentSlide;
+    },
+
+    updateCurrent: function updateCurrent(nextSlide) {
+      var _this3 = this;
+
+      if (nextSlide == this.state.currentSlide) return;
+      if (this.state.moving) return;
+      this.state.moving = true;
+      var next = this.slides.find(function (slide) {
+        return slide.id == _this3.state.order[nextSlide];
+      }); // Reorder the slides for a smoother transition
+
+      var newSlideOrder = this.slides.filter(function (slide) {
+        return ![_this3.current.id, _this3.state.order[nextSlide]].includes(slide.id);
+      });
+      var activeSlides = [this.current, next];
+      this.state.nextSlideDirection = nextSlide > this.state.currentSlide ? 'right-to-left' : 'left-to-right';
+      newSlideOrder.unshift.apply(newSlideOrder, _toConsumableArray(this.state.nextSlideDirection == 'right-to-left' ? activeSlides : activeSlides.reverse()));
+      this.slides = newSlideOrder;
+      this.state.currentSlide = nextSlide;
+      setTimeout(function () {
+        _this3.state.moving = false; // TODO: possibly a better check to determine whether autoplay should resume
+
+        _this3.attributes.timer && !_this3.autoplayTimer && _this3.autoPlay();
+      }, this.attributes.duration);
+    },
+    transitions: function transitions(state, $dispatch) {
+      var rightToLeft = this.state.nextSlideDirection === 'right-to-left';
+
+      switch (state) {
+        case 'enter':
+          return "transition-all duration-".concat(this.attributes.duration);
+
+        case 'enter-start':
+          return rightToLeft ? 'transform translate-x-full' : 'transform -translate-x-full';
+
+        case 'enter-end':
+          return 'transform translate-x-0';
+
+        case 'leave':
+          return "absolute top-0 transition-all duration-".concat(this.attributes.duration);
+
+        case 'leave-start':
+          return 'transform translate-x-0';
+
+        case 'leave-end':
+          return rightToLeft ? 'transform -translate-x-full' : 'transform translate-x-full';
+      }
+    },
+    autoPlay: function autoPlay() {
+      var _this4 = this;
+
+      this.loop = function () {
+        var next = _this4.state.currentSlide === _this4.slides.length - 1 ? 0 : _this4.state.currentSlide + 1;
+
+        _this4.updateCurrent(_this4.state.looping ? next : _this4.currentSlide);
+
+        _this4.autoplayTimer = setTimeout(function () {
+          requestAnimationFrame(_this4.loop);
+        }, _this4.attributes.timer + _this4.attributes.duration);
+      };
+
+      this.autoplayTimer = setTimeout(function () {
+        _this4.state.looping = true;
+        requestAnimationFrame(_this4.loop);
+      }, this.attributes.timer);
+    },
+    stopAutoplay: function stopAutoplay() {
+      clearTimeout(this.autoplayTimer);
+      this.autoplayTimer = null;
+    }
+  };
+};
+
+window.slides = [{
+  content: "\n                <ul class=\"flex flex-wrap items-center\">\n                    <li class=\"w-1/5\">\n                        <img src=\"assets/images/sponsors/3m.svg\" alt=\"3M\" title=\"3M\" class=\"w-48 h-auto mx-auto\">\n                    </li>\n                    <li class=\"w-1/5\">\n                        <img src=\"assets/images/sponsors/alcumus.svg\" alt=\"Alcumus\" title=\"Alcumus\" class=\"w-48 h-auto mx-auto\">\n                    </li>\n                    <li class=\"w-1/5\">\n                        <img src=\"assets/images/sponsors/bsif.svg\" alt=\"BSIF\" title=\"BSIF\" class=\"w-48 h-auto mx-auto\">\n                    </li>\n                    <li class=\"w-1/5\">\n                        <img src=\"assets/images/sponsors/diadora.svg\" alt=\"Diadora\" title=\"Diadora\" class=\"w-48 h-auto mx-auto\">\n                    </li>\n                    <li class=\"w-1/5\">\n                        <img src=\"assets/images/sponsors/havi.svg\" alt=\"Havi\" title=\"Havi\" class=\"w-48 h-auto mx-auto\">\n                    </li>\n                </ul>\n            "
+}, {
+  content: "\n                <ul class=\"flex flex-wrap items-center\">\n                    <li class=\"w-1/5\">\n                        <img src=\"assets/images/sponsors/lyreco.svg\" alt=\"Lyreco\" title=\"Lyreco\" class=\"w-48 h-auto mx-auto\">\n                    </li>\n                    <li class=\"w-1/5\">\n                        <img src=\"assets/images/sponsors/nebosh.svg\" alt=\"Nebosh\" title=\"Nebosh\" class=\"w-48 h-auto mx-auto\">\n                    </li>\n                    <li class=\"w-1/5\">\n                        <img src=\"assets/images/sponsors/nineteen.svg\" alt=\"Nineteen\" title=\"Nineteen\" class=\"w-48 h-auto mx-auto\">\n                    </li>\n                    <li class=\"w-1/5\">\n                        <img src=\"assets/images/sponsors/safety-knife.svg\" alt=\"Safety Knife\" title=\"Safety Knife\" class=\"w-48 h-auto mx-auto\">\n                    </li>\n                    <li class=\"w-1/5\">\n                        <img src=\"assets/images/sponsors/shawcity.svg\" alt=\"Shawcity\" title=\"Shawcity\" class=\"w-48 h-auto mx-auto\">\n                    </li>\n                </ul>\n            "
+}, {
+  content: "\n                <ul class=\"flex flex-wrap justify-center items-center\">\n                    <li class=\"w-1/5\">\n                        <img src=\"assets/images/sponsors/southalls.svg\" alt=\"Southalls\" title=\"Southalls\" class=\"w-48 h-auto mx-auto\">\n                    </li>\n                    <li class=\"w-1/5\">\n                        <img src=\"assets/images/sponsors/toyota.svg\" alt=\"Toyota\" title=\"Toyota\" class=\"w-48 h-auto mx-auto\">\n                    </li>\n                    <li class=\"w-1/5\">\n                        <img src=\"assets/images/sponsors/turner-townsend.svg\" alt=\"Turner Townsend\" title=\"Turner Townsend\" class=\"w-48 h-auto mx-auto\">\n                    </li>\n                    <li class=\"w-1/5\">\n                        <img src=\"assets/images/sponsors/univet.svg\" alt=\"Univet\" title=\"Univet\" class=\"w-48 h-auto mx-auto\">\n                    </li>\n                </ul>\n            "
+}];
 
 /***/ }),
 
