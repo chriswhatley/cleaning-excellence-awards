@@ -1,7 +1,7 @@
 <header class="fixed w-full px-3 py-4 lg:px-12 lg:py-6 bg-black text-white flex justify-between z-20">            
         
     <a href="/">
-        <img src="assets/images/layout/she-awards-nov20-logo.svg" alt="The SHE Awards 2020" class="h-16 lg:h-24 w-auto">
+        <img src="{{ $page->baseUrl }}/assets/images/layout/she-awards-nov20-logo.svg" alt="The SHE Awards 2020" class="h-16 lg:h-24 w-auto">
     </a>                
         
     <nav class="flex">
@@ -11,12 +11,12 @@
             <div class="hidden lg:flex">
                 <div class="mr-12 text-center">
                     In conjunction with
-                    <img src="assets/images/layout/header-bsif.svg" alt="BSIF" class="w-32 mt-3">
+                    <img src="{{ $page->baseUrl }}/assets/images/layout/header-bsif.svg" alt="BSIF" class="w-32 mt-3">
                 </div>                        
 
                 <div class="mr-16 text-center">
                     Headline sponsor
-                    <img src="assets/images/layout/header-lyreco.svg" alt="Lyreco" class="w-32 mt-3">
+                    <img src="{{ $page->baseUrl }}/assets/images/layout/header-lyreco.svg" alt="Lyreco" class="w-32 mt-3">
                 </div>                                                
             </div>
                   
@@ -51,7 +51,7 @@
 			
 					<div class="my-6 flex items-start">
 						<div class="flex w-4/5 pl-3 md:pl-6">
-							<img src="assets/images/layout/she-awards-nov20-logo.svg" alt="The SHE Awards 2020" class="w-18" @click="open = !open">		                    			
+							<img src="{{ $page->baseUrl }}/assets/images/layout/she-awards-nov20-logo.svg" alt="The SHE Awards 2020" class="w-18" @click="open = !open">		                    			
 						</div>
 						<div class="flex md:hidden w-1/5 justify-end p-2 pr-3 sm:pr-4">
 							<button @click="open = !open" class="z-20 text-yellow-500 focus:outline-none focus:border-blue-500 focus:shadow-outline-none">                                       
@@ -72,7 +72,7 @@
                             </a>
                         </li>                            
                         <li>
-                        	<a href="" class="nav-item">
+                        	<a href="/awards" class="nav-item">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 -mt-1 mr-3">
                                     <path d="M3 6c0-1.1.9-2 2-2h8l4-4h2v16h-2l-4-4H5a2 2 0 0 1-2-2H1V6h2zm8 9v5H8l-1.67-5H5v-2h8v2h-2z"/>
                                 </svg>

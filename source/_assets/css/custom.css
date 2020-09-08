@@ -83,3 +83,11 @@ div[class*="gallery-tile-"] {
 .footer-link:hover {
 	@apply text-yellow-500
 }
+
+.webp .header {
+	background-image: url('../video/she-awards-background-poster-compressed.webp');
+}
+
+.no-webp .header {
+	background-image: url('../video/she-awards-background-poster-compressed.jpg');
+}

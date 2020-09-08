@@ -61,7 +61,7 @@
 
             <div class="sm:flex justify-center mt-6 text-white">
             	<div class="sm:flex sm:w-1/2 px-6 justify-center">
-            		<a href="" class="btn-primary w-full md:w-2/3 text-md">
+            		<a href="/awards" class="btn-primary w-full md:w-2/3 text-md">
             			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
             				<path d="M3 6c0-1.1.9-2 2-2h8l4-4h2v16h-2l-4-4H5a2 2 0 0 1-2-2H1V6h2zm8 9v5H8l-1.67-5H5v-2h8v2h-2z"/>
             			</svg>
@@ -236,7 +236,7 @@
 		{{-- Video --}}
 		<section x-data="{ open: false }" x-init="$watch('open', value => stopVideo())" class="bg-cover bg-top overflow-hidden highlights-video">
 
-			@include('_partials/modal', ['videoID' => 'PR_OnZIh1MY'])		
+			@include('_components/modal', ['videoID' => 'PR_OnZIh1MY'])		
 	        
 			<div class="container mx-auto px-6 py-24 text-white text-center max-w-screen-lg">
 				<h2 class="text-2xl lg:text-4xl font-bold leading-tight tracking-tight uppercase">

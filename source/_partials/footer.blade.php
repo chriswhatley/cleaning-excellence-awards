@@ -129,7 +129,7 @@
                         <svg class="mr-3 w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">                               
                             <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"/>
                         </svg>                        
-                        <a href="/" class="footer-link">Awards Categories</a>
+                        <a href="/awards" class="footer-link">Awards Categories</a>
                     </div>                 
                 </li>
                 <li>
@@ -179,9 +179,9 @@
             <h2 class="text-lg md:text-xl font-bold uppercase">Organiser</h2>                       
         	<div class="mt-8">
         		<picture>
-                    <source srcset="assets/images/layout/wbm-logo-compressed.webp" type="image/webp">
-                    <source srcset="assets/images/layout/wbm-logo-compressed.png" type="image/png"> 
-                    <img src="assets/images/layout/wbm-logo-compressed.png" alt="Western Business Media Limited" class="w-56 sm:w-64">
+                    <source srcset="{{ $page->baseUrl }}/assets/images/layout/wbm-logo-compressed.webp" type="image/webp">
+                    <source srcset="{{ $page->baseUrl }}/assets/images/layout/wbm-logo-compressed.png" type="image/png"> 
+                    <img src="{{ $page->baseUrl }}/assets/images/layout/wbm-logo-compressed.png" alt="Western Business Media Limited" class="w-56 sm:w-64">
                 </picture>
 
                 <div class="flex mt-8">
@@ -220,10 +220,10 @@
                     <div class="flex items-start mt-3">
                         <div class="flex w-full text-white tracking-tight">
                             <a class="h-8 w-8" href="https://www.linkedin.com/company/air-user-live" target="_blank" rel="noopener">
-                               <img src="assets/images/icons/linkedin-icon.svg" alt="LinkedIn">
+                               <img src="{{ $page->baseUrl }}/assets/images/icons/linkedin-icon.svg" alt="LinkedIn">
                             </a>
                             <a class="h-8 w-8 ml-2" href="https://twitter.com/AirUserLive" target="_blank" rel="noopener">
-                                <img src="assets/images/icons/twitter-icon.svg" alt="Twitter">
+                                <img src="{{ $page->baseUrl }}/assets/images/icons/twitter-icon.svg" alt="Twitter">
                             </a>
                         </div>
                     </div> 

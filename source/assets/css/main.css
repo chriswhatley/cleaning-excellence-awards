@@ -750,6 +750,14 @@ div[class*="gallery-tile-"] {
   color: rgba(255, 194, 14, var(--text-opacity))
 }
 
+.webp .header {
+  background-image: url('../video/she-awards-background-poster-compressed.webp');
+}
+
+.no-webp .header {
+  background-image: url('../video/she-awards-background-poster-compressed.jpg');
+}
+
 /* DEBUGGING - REMOVE FOR STAGING/PRODUCTION */
 
 /* DEBUGGING - REMOVE FOR PRODUCTION */

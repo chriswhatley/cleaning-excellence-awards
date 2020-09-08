@@ -107,19 +107,19 @@ window.slides = [
         content: `
                 <ul class="flex flex-wrap items-center">
                     <li class="w-1/5">
-                        <img src="assets/images/sponsors/3m.svg" alt="3M" title="3M" class="w-48 h-auto mx-auto">
+                        <img src="assets/images/sponsors/carousel/3m.svg" alt="3M" title="3M" class="w-48 h-auto mx-auto">
                     </li>
                     <li class="w-1/5">
-                        <img src="assets/images/sponsors/alcumus.svg" alt="Alcumus" title="Alcumus" class="w-48 h-auto mx-auto">
+                        <img src="assets/images/sponsors/carousel/alcumus.svg" alt="Alcumus" title="Alcumus" class="w-48 h-auto mx-auto">
                     </li>
                     <li class="w-1/5">
-                        <img src="assets/images/sponsors/bsif.svg" alt="BSIF" title="BSIF" class="w-48 h-auto mx-auto">
+                        <img src="assets/images/sponsors/carousel/bsif.svg" alt="BSIF" title="BSIF" class="w-48 h-auto mx-auto">
                     </li>
                     <li class="w-1/5">
-                        <img src="assets/images/sponsors/diadora.svg" alt="Diadora" title="Diadora" class="w-48 h-auto mx-auto">
+                        <img src="assets/images/sponsors/carousel/diadora.svg" alt="Diadora" title="Diadora" class="w-48 h-auto mx-auto">
                     </li>
                     <li class="w-1/5">
-                        <img src="assets/images/sponsors/havi.svg" alt="Havi" title="Havi" class="w-48 h-auto mx-auto">
+                        <img src="assets/images/sponsors/carousel/havi.svg" alt="Havi" title="Havi" class="w-48 h-auto mx-auto">
                     </li>
                 </ul>
             `,        
@@ -128,19 +128,19 @@ window.slides = [
          content: `
                 <ul class="flex flex-wrap items-center">
                     <li class="w-1/5">
-                        <img src="assets/images/sponsors/lyreco.svg" alt="Lyreco" title="Lyreco" class="w-48 h-auto mx-auto">
+                        <img src="assets/images/sponsors/carousel/lyreco.svg" alt="Lyreco" title="Lyreco" class="w-48 h-auto mx-auto">
                     </li>
                     <li class="w-1/5">
-                        <img src="assets/images/sponsors/nebosh.svg" alt="Nebosh" title="Nebosh" class="w-48 h-auto mx-auto">
+                        <img src="assets/images/sponsors/carousel/nebosh.svg" alt="Nebosh" title="Nebosh" class="w-48 h-auto mx-auto">
                     </li>
                     <li class="w-1/5">
-                        <img src="assets/images/sponsors/nineteen.svg" alt="Nineteen" title="Nineteen" class="w-48 h-auto mx-auto">
+                        <img src="assets/images/sponsors/carousel/nineteen.svg" alt="Nineteen" title="Nineteen" class="w-48 h-auto mx-auto">
                     </li>
                     <li class="w-1/5">
-                        <img src="assets/images/sponsors/safety-knife.svg" alt="Safety Knife" title="Safety Knife" class="w-48 h-auto mx-auto">
+                        <img src="assets/images/sponsors/carousel/safety-knife.svg" alt="Safety Knife" title="Safety Knife" class="w-48 h-auto mx-auto">
                     </li>
                     <li class="w-1/5">
-                        <img src="assets/images/sponsors/shawcity.svg" alt="Shawcity" title="Shawcity" class="w-48 h-auto mx-auto">
+                        <img src="assets/images/sponsors/carousel/shawcity.svg" alt="Shawcity" title="Shawcity" class="w-48 h-auto mx-auto">
                     </li>
                 </ul>
             `, 
@@ -150,16 +150,16 @@ window.slides = [
          content: `
                 <ul class="flex flex-wrap justify-center items-center">
                     <li class="w-1/5">
-                        <img src="assets/images/sponsors/southalls.svg" alt="Southalls" title="Southalls" class="w-48 h-auto mx-auto">
+                        <img src="assets/images/sponsors/carousel/southalls.svg" alt="Southalls" title="Southalls" class="w-48 h-auto mx-auto">
                     </li>
                     <li class="w-1/5">
-                        <img src="assets/images/sponsors/toyota.svg" alt="Toyota" title="Toyota" class="w-48 h-auto mx-auto">
+                        <img src="assets/images/sponsors/carousel/toyota.svg" alt="Toyota" title="Toyota" class="w-48 h-auto mx-auto">
                     </li>
                     <li class="w-1/5">
-                        <img src="assets/images/sponsors/turner-townsend.svg" alt="Turner Townsend" title="Turner Townsend" class="w-48 h-auto mx-auto">
+                        <img src="assets/images/sponsors/carousel/turner-townsend.svg" alt="Turner Townsend" title="Turner Townsend" class="w-48 h-auto mx-auto">
                     </li>
                     <li class="w-1/5">
-                        <img src="assets/images/sponsors/univet.svg" alt="Univet" title="Univet" class="w-48 h-auto mx-auto">
+                        <img src="assets/images/sponsors/carousel/univet.svg" alt="Univet" title="Univet" class="w-48 h-auto mx-auto">
                     </li>
                 </ul>
             `, 
