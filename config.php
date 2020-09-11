@@ -4,5 +4,6 @@ return [
     'production' => false,
     'baseUrl' => 'http://localhost:3000/',
     'siteTitle' => 'SHE Awards 2020',
-    'collections' => [ 'awards' ],
+    'awardsDate' => '28th April 2021',
+    'collections' => [ 'awards', 'shortlists' => ['sort' => 'sort-order',] ],
 ];

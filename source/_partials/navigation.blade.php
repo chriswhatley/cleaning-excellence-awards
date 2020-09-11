@@ -1,7 +1,7 @@
 <header class="fixed w-full px-3 py-4 lg:px-12 lg:py-6 bg-black text-white flex justify-between z-20">            
         
     <a href="/">
-        <img src="{{ $page->baseUrl }}/assets/images/layout/she-awards-nov20-logo.svg" alt="The SHE Awards 2020" class="h-16 lg:h-24 w-auto">
+        <img src="{{ $page->baseUrl }}/assets/images/layout/she-awards-apr21-logo.svg" alt="The SHE Awards 2020" class="h-16 lg:h-24 w-auto">
     </a>                
         
     <nav class="flex">
@@ -51,7 +51,7 @@
 			
 					<div class="my-6 flex items-start">
 						<div class="flex w-4/5 pl-3 md:pl-6">
-							<img src="{{ $page->baseUrl }}/assets/images/layout/she-awards-nov20-logo.svg" alt="The SHE Awards 2020" class="w-18" @click="open = !open">		                    			
+							<img src="{{ $page->baseUrl }}/assets/images/layout/she-awards-apr21-logo.svg" alt="The SHE Awards 2020" class="w-18" @click="open = !open">		                    			
 						</div>
 						<div class="flex md:hidden w-1/5 justify-end p-2 pr-3 sm:pr-4">
 							<button @click="open = !open" class="z-20 text-yellow-500 focus:outline-none focus:border-blue-500 focus:shadow-outline-none">                                       
@@ -64,7 +64,7 @@
 
                     <ul>
                         <li>
-                            <a href="" class="nav-item">                                
+                            <a href="/" class="nav-item">                                
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 -mt-1 mr-3">
                                     <path d="M8 20H3V10H0L10 0l10 10h-3v10h-5v-6H8v6z"/>
                                 </svg>
@@ -80,11 +80,11 @@
                         	</a>
                         </li>                                                            
                         <li>
-                        	<a href="" class="nav-item">
+                        	<a href="/shortlist" class="nav-item">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 -mt-1 mr-3">
                                     <path d="M10 12a6 6 0 1 1 0-12 6 6 0 0 1 0 12zm0-3a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm4 2.75V20l-4-4-4 4v-8.25a6.97 6.97 0 0 0 8 0z"/>
                                 </svg>
-                        		The Shortlist
+                        		The Shortlists
                         	</a>
                         </li>                            
                         <li>
@@ -102,6 +102,14 @@
                                 </svg>
                         		The Venue
                         	</a>
+                        </li>
+                        <li>
+                            <a href="/sponsorship" class="nav-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 -mt-1 mr-3">
+                                    <path d="M7.667 12H2v8H0V0h12l.333 2H20l-3 6 3 6H8l-.333-2z"/>
+                                </svg>
+                                Sponsorship
+                            </a>
                         </li>
                         <li>
                         	<a href="" class="nav-item">

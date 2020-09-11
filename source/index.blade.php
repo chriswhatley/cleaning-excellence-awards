@@ -26,7 +26,7 @@
             <div class="text-lg sm:text-md lg:text-2xl">Welcome To</div>
             <h1 class="mt-2 px-2 text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
                 The Safety &amp; Health Excellence Awards
-                <span class="block mx-auto mt-2 lg:mt-0 px-4 text-sm lg:text-xl tracking-wide">24<sup class="lg:text-xs">th</sup> November 2020 <span class="hidden sm:inline"> - </span><br class="block sm:hidden" /> Vox, Resorts World, Birmingham</span>
+                <span class="block mx-auto mt-2 lg:mt-0 px-4 text-sm lg:text-xl tracking-wide">28<sup class="lg:text-xs">th</sup> April 2021 <span class="hidden sm:inline"> - </span><br class="block sm:hidden" /> Vox, Resorts World, Birmingham</span>
             </h1>           
             <div class="mt-6 sm:mt-8 text-center">
         		<a href="" class="btn-primary w-3/4 max-w-xs text-md sm:text-sm md:text-md lg:text-lg">
@@ -70,7 +70,7 @@
             	</div>
 
             	<div class="sm:flex sm:w-1/2 px-6 pt-6 sm:pt-0 justify-center">
-            		<a href="" class="btn-primary w-full md:w-2/3 text-md">
+            		<a href="/shortlist" class="btn-primary w-full md:w-2/3 text-md">
             			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
             				<path d="M10 12a6 6 0 1 1 0-12 6 6 0 0 1 0 12zm0-3a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm4 2.75V20l-4-4-4 4v-8.25a6.97 6.97 0 0 0 8 0z"/>
             			</svg>
@@ -121,7 +121,7 @@
 						<p class="sm:px-6">Alistair McGowan has been hailed by  The Times as a ‘voice virtuoso.’ His  repertoire includes a gallery of  politicians, pop stars and sportsmen –like a romp through the news,  gossip columns and back  page headlines.</p>        											    		            	
 
 		            	<div class="mt-6 text-center">
-		            		<a href="" class="btn-primary w-4/5 max-w-xs">
+		            		<a href="/host" class="btn-primary w-4/5 max-w-xs">
 		            			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
 		            				<path d="M15.75 8l-3.74-3.75a3.99 3.99 0 0 1 6.82-3.08A4 4 0 0 1 15.75 8zM1.85 15.3l9.2-9.19 2.83 2.83-9.2 9.2-2.82-2.84zm-1.4 2.83l2.11-2.12 1.42 1.42-2.12 2.12-1.42-1.42zM10 15l2-2v7h-2v-5z"/>
 		            			</svg>
@@ -142,12 +142,12 @@
 	        			<h3 class="lg:text-2xl font-bold leading-tight tracking-tight uppercase">Awards Host<br /> Alistair McGowan</h3>
 		        		<p class="mt-6 pr-16">Alistair McGowan has been hailed by  The Times as a ‘voice virtuoso.’ His  repertoire includes a gallery of  politicians, pop stars and sportsmen –like a romp through the news,  gossip columns and back  page headlines.</p>        		
 		        		<div class="mt-10">
-		        			<button class="btn-primary w-4/5 max-w-xs">		            	
+		        			<a href="/host" class="btn-primary w-4/5 max-w-xs">		            	
 		            			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
 		            				<path d="M15.75 8l-3.74-3.75a3.99 3.99 0 0 1 6.82-3.08A4 4 0 0 1 15.75 8zM1.85 15.3l9.2-9.19 2.83 2.83-9.2 9.2-2.82-2.84zm-1.4 2.83l2.11-2.12 1.42 1.42-2.12 2.12-1.42-1.42zM10 15l2-2v7h-2v-5z"/>
 		            			</svg>
 		            			Find out more
-		            		</button>		           
+		            		</a>		           
 		            	</div>
 	        		</div>        	
 	        	</div>  	        		 
@@ -197,7 +197,7 @@
 		        		<div class="px-6 py-16 bg-yellow-500">									
 							<h3 class="lg:text-2xl font-bold leading-tight tracking-tight uppercase text-white text-center">SHE Awards Shortlist</h3>
 			            	<div class="mt-6 text-center">
-			            		<a href="" class="btn-primary bg-gray-800 w-4/5 max-w-xs">
+			            		<a href="/shortlist" class="btn-primary bg-gray-800 w-4/5 max-w-xs">
 			            			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
 			            				<path d="M0 6c0-1.1.9-2 2-2h3l2-2h6l2 2h3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6zm10 10a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0-2a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
 			            			</svg>

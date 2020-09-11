@@ -31,6 +31,14 @@
 	background-image: url('../images/layout/home-alistair-mcgowan-compressed.jpg');
 }
 
+.webp .host-bio {
+	background-image: url('../images/layout/host-alistair-mcgowan.webp');
+}
+
+.no-webp .host-bio {
+	background-image: url('../images/layout/host-alistair-mcgowan.jpg');
+}
+
 .stats h3::after {
 	content: ' ';
 	display: block;
@@ -84,10 +92,78 @@ div[class*="gallery-tile-"] {
 	@apply text-yellow-500
 }
 
-.webp .header {
-	background-image: url('../video/she-awards-background-poster-compressed.webp');
+.webp .header-a {
+	background-image: url('../images/layout/hero-1-compressed.webp');
 }
 
-.no-webp .header {
-	background-image: url('../video/she-awards-background-poster-compressed.jpg');
+.no-webp .header-a {
+	background-image: url('../images/layout/hero-1-compressed.jpg');
+}
+
+.webp .header-b {
+	background-image: url('../images/layout/hero-1-compressed.webp');
+}
+
+.no-webp .header-b {
+	background-image: url('../images/layout/hero-1-compressed.jpg');
+}
+
+.webp .header-c {
+	background-image: url('../images/layout/hero-1-compressed.webp');
+}
+
+.no-webp .header-c {
+	background-image: url('../images/layout/hero-1-compressed.jpg');
+}
+
+.webp .sponsorship-a {
+	background-image: url('../images/layout/sponsorship-a-compressed.webp');
+}
+
+.no-webp .sponsorship-a {
+	background-image: url('../images/layout/sponsorship-a-compressed.jpg');
+}
+
+.webp .sponsorship-b {
+	background-image: url('../images/layout/sponsorship-b-compressed.webp');
+}
+
+.no-webp .sponsorship-b {
+	background-image: url('../images/layout/sponsorship-b-compressed.jpg');
+}
+
+.webp .sponsorship-brochure {
+	background-image: url('../images/layout/sponsorship-b-compressed.webp');
+}
+
+.no-webp .sponsorship-brochure {
+	background-image: url('../images/layout/sponsorship-b-compressed.jpg');
+}
+
+.webp .sponsorship-contact {
+	background-image: url('../images/layout/sponsorship-contact-compressed.webp');
+}
+
+.no-webp .sponsorship-contact {
+	background-image: url('../images/layout/sponsorship-contact-compressed.jpg');
+}
+
+.webp .sponsorship-tickets {
+	background-image: url('../images/layout/sponsorship-tickets-compressed.webp');
+}
+
+.no-webp .sponsorship-tickets {
+	background-image: url('../images/layout/sponsorship-tickets-compressed.jpg');
+}
+
+.collage {
+	@apply w-full h-72 bg-cover bg-center
+}
+
+.webp .collage {
+	background-image: url('../images/layout/footer-strip-compressed.webp');
+}
+
+.no-webp .collage {
+	background-image: url('../images/layout/footer-strip-compressed.jpg');
 }
