@@ -156,6 +156,46 @@ div[class*="gallery-tile-"] {
 	background-image: url('../images/layout/sponsorship-tickets-compressed.jpg');
 }
 
+.webp .attendee-tickets {
+	background-image: url('../images/layout/attendee-tickets-compressed.webp');
+}
+
+.no-webp .attendee-tickets {
+	background-image: url('../images/layout/attendee-tickets-compressed.jpg');
+}
+
+.webp .contact-a {
+	background-image: url('../images/layout/contact-a-compressed.webp');
+}
+
+.no-webp .contact-a {
+	background-image: url('../images/layout/contact-a-compressed.jpg');
+}
+
+.webp .contact-b {
+	background-image: url('../images/layout/contact-b-compressed.webp');
+}
+
+.no-webp .contact-b {
+	background-image: url('../images/layout/contact-b-compressed.jpg');
+}
+
+.webp .contact-c {
+	background-image: url('../images/layout/contact-c-compressed.webp');
+}
+
+.no-webp .contact-c {
+	background-image: url('../images/layout/contact-c-compressed.jpg');
+}
+
+.webp .contact-d {
+	background-image: url('../images/layout/contact-d-compressed.webp');
+}
+
+.no-webp .contact-d {
+	background-image: url('../images/layout/contact-d-compressed.jpg');
+}
+
 .collage {
 	@apply w-full h-72 bg-cover bg-center
 }
@@ -166,4 +206,13 @@ div[class*="gallery-tile-"] {
 
 .no-webp .collage {
 	background-image: url('../images/layout/footer-strip-compressed.jpg');
+}
+
+/* used with the FAQ accordian */
+.max-h-0 {
+  max-height: 0;
+}
+
+.faq p {
+	@apply pb-3
 }

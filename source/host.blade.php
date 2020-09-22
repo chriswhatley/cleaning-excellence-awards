@@ -14,13 +14,13 @@
 
 			<div class="flex flex-wrap">
 				
-				<div class="mt-6">
+				<div class="w-2/3 mx-auto mt-6">
 					<p class="text-lg md:mx-auto md:text-xl lg:text-2xl md:text-center font-semibold leading-tight lg:leading-tight uppercase">We are delighted to announce that well-known comedian Alistair McGowan will host this year's Awards.</p>
 				</div>
 				<div class="xl:mt-6">
 					<p class="mt-6 md:mt-6 md:pr-4">Alistair McGowan has been hailed by The Times as a ‘voice virtuoso.’ His repertoire includes a gallery of politicians, pop stars and sportsmen – like a romp through the news, gossip columns and back page headlines.</p>									
 		
-					<div class="w-full host-bio bg-top bg-cover overflow-hidden h-64 md:h-72 lg:h-84 xl:h-96 mt-6 md:w-1/2 md:float-right md:ml-6 md:mb-6 lg:ml-8 lg:mb-8"></div>
+					<div class="w-full host-bio bg-top bg-cover rounded-md overflow-hidden h-64 md:h-72 lg:h-84 xl:h-96 mt-6 md:w-1/2 md:float-right md:ml-6 md:mb-6 lg:ml-8 lg:mb-8"></div>
 			
 					<p class="mt-6">After appearing at Edinburgh with his original comedy partner Harry Hill, Alistair cut his impressionist’s teeth on Spitting Image - bringing Tony Blair, Chris Eubank and Prince Charles to life. He also provided the voice of Gary Lineker in a West End play, before playing David Beckham to Ronnie Ancona’s Victoria. He’s since fronted his own BBC One show The Big Impression and has appeared on a vast array of programmes from The One Show to Live at the Apollo, Countdown to Have I Got News For You.</p>					
 					<p class="mt-6">Alongside comedy Alistair has also amassed a string of dramatic acting credits. He played the lead in (and co-wrote episodes of) the detective drama Mayo, starred in the BBC adaptation of Bleak House and joined the cast of Skins. Onstage he’s appeared opposite Judi Dench in the RSC’s Merry Wives of Windsor, and with Connie Fisher in They’re Playing Our Song. He also took the role of ‘Emcee’ in the West End revival of Cabaret, toured as Henry Higgins in Pygmalion, and starred as the Mikado in the Gilbert and Sullivan operetta. Continuing to challenge himself he learned piano in order to star in and write a play about Erik Satie, and also presented a Radio 4 documentary on the composer.</p>
@@ -51,14 +51,7 @@
 			        		</button>
 			        	</div> 
 					</div>
-
-
 				</div>
-
-				<div class="w-full md:w-1/2 md:pl-8">
-					
-				</div>
-				
 			</div>
 		</section>	
 

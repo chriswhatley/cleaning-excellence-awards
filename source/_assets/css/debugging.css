@@ -1,4 +1,9 @@
 /* DEBUGGING - REMOVE FOR PRODUCTION */
+
+.border-dev {
+	@apply border border-teal-500
+}
+
 footer:nth-of-type(1):before {
 	content: 'Viewport XS';
 	position: fixed;

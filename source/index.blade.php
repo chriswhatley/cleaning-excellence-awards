@@ -29,7 +29,7 @@
                 <span class="block mx-auto mt-2 lg:mt-0 px-4 text-sm lg:text-xl tracking-wide">28<sup class="lg:text-xs">th</sup> April 2021 <span class="hidden sm:inline"> - </span><br class="block sm:hidden" /> Vox, Resorts World, Birmingham</span>
             </h1>           
             <div class="mt-6 sm:mt-8 text-center">
-        		<a href="" class="btn-primary w-3/4 max-w-xs text-md sm:text-sm md:text-md lg:text-lg">
+        		<a href="/tickets" class="btn-primary w-3/4 max-w-xs text-md sm:text-sm md:text-md lg:text-lg">
         			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
         				<path d="M0 10V2l2-2h8l10 10-10 10L0 10zm4.5-4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
         			</svg>
@@ -158,7 +158,7 @@
 						<div class="px-6 py-16 ">									
 							<h3 class="lg:text-2xl font-bold leading-tight tracking-tight uppercase text-white text-center">SHE Awards Gallery</h3>
 			            	<div class="mt-6 text-center">
-			            		<a href="" class="btn-primary w-4/5 max-w-xs">
+			            		<a href="/gallery" class="btn-primary w-4/5 max-w-xs">
 			            			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
 			            				<path d="M0 6c0-1.1.9-2 2-2h3l2-2h6l2 2h3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6zm10 10a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0-2a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
 			            			</svg>
@@ -184,7 +184,7 @@
 						<div class="px-6 py-16 bg-gray-800">									
 							<h3 class="lg:text-2xl font-bold leading-tight tracking-tight uppercase text-white text-center">SHE Awards Categories</h3>				    	   	
 			            	<div class="mt-6 text-center">
-			            		<a href="" class="btn-primary w-4/5 max-w-xs">
+			            		<a href="/awards" class="btn-primary w-4/5 max-w-xs">
 			            			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
 			            				<path d="M0 6c0-1.1.9-2 2-2h3l2-2h6l2 2h3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6zm10 10a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0-2a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
 			            			</svg>
@@ -220,7 +220,7 @@
 	        			</div>
 		        		<p class="mt-6 sm:mt-4 lg:mt-6">The Lighthouse Club is the only charity that provides financial and emotional support to the construction community and their families who have suffered an injury, illness or just need some extra support.  </p>        		
 		        		<div class="mt-10 sm:mt-6 lg:mt-10 text-center">
-		            		<a href="" class="btn-primary w-4/5 max-w-xs">
+		            		<a href="/charity" class="btn-primary w-4/5 max-w-xs">
 		            			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
 		            				<path d="M15.75 8l-3.74-3.75a3.99 3.99 0 0 1 6.82-3.08A4 4 0 0 1 15.75 8zM1.85 15.3l9.2-9.19 2.83 2.83-9.2 9.2-2.82-2.84zm-1.4 2.83l2.11-2.12 1.42 1.42-2.12 2.12-1.42-1.42zM10 15l2-2v7h-2v-5z"/>
 		            			</svg>

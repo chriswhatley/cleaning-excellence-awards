@@ -16,14 +16,14 @@ pagination:
 
     	@include('_components.title-component', ['title' => 'The Awards', 'background_image' => 'header-b'])
        
-        <section class="container mx-auto py-10 px-6 lg:px-0">
+        <section class="container mx-auto py-10 px-6">
 
-        	<div class="w-full">
+        	<div class="w-full text-center">
 	    		<p>Please make sure you have properly read the categories and criteria before entering. The criteria is different for each category and you are able to enter multiple categories. You can also enter more than one product in each category provided they are different products or services.</p>
 				<p class="mt-4 text-center font-semibold">DEADLINE FOR ENTRIES: Wednesday 11 March 2020 at 11:59PM.</p>
 	    	</div>
 
-			<div class="mt-12">
+			<div class="mt-12 flex flex-wrap">
 				@foreach ($pagination->items as $award)
 
 					@include('_components.award-component')
