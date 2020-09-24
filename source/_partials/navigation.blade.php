@@ -20,7 +20,7 @@
                 </div>                                                
             </div>
                   
-            <button @click="open = !open" class="z-20 text-yellow-500 focus:outline-none focus:border-blue-500 focus:shadow-outline-none">                                       
+            <button @click="open = !open" class="z-20 text-yellow-500 focus:outline-none focus:border-blue-500 focus:shadow-outline-none" aria-label="Mobile Navigation Menu">                                       
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 22 22" class="w-6 h-6 lg:w-8 lg:h-8 transition-transform duration-200 transform">
                     <path d="M4 6h16M4 12h16M4 18h16"></path>                    
                 </svg>                       
@@ -102,6 +102,14 @@
                                 </svg>
                         		The Venue
                         	</a>
+                        </li>
+                        <li>
+                            <a href="/sponsors" class="nav-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 -mt-1 mr-3">
+                                    <path d="M15 9a3 3 0 0 0 3-3h2a5 5 0 0 1-5.1 5 5 5 0 0 1-3.9 3.9V17l5 2v1H4v-1l5-2v-2.1A5 5 0 0 1 5.1 11H5a5 5 0 0 1-5-5h2a3 3 0 0 0 3 3V4H2v2H0V2h5V0h10v2h5v4h-2V4h-3v5z"/>
+                                </svg>
+                                Sponsors
+                            </a>
                         </li>
                         <li>
                             <a href="/sponsorship" class="nav-item">

@@ -45,9 +45,9 @@
         <section class="container mx-auto py-10 px-6 lg:px-20">
             <div class="text-center">
                 <h2 class="text-2xl lg:text-4xl font-bold leading-tight tracking-tight uppercase">THE SAFETY & HEALTH EXCELLENCE AWARDS</h2>
-                <h4 class="text-base lg:text-xl mt-6 font-semibold">
+                <h3 class="text-base lg:text-xl mt-6 font-semibold">
                     Be part of the the Safety & Health Excellence Awards, in conjunction with the BSIF, which will be held at the magnificent VOX event centre at Resorts World next to the NEC.
-                </h4>
+                </h3>
             </div>
 
             <div class="md:flex mt-6">
@@ -272,7 +272,7 @@
         <div class="hidden md:flex items-center justify-center bg-white">
 
             <section
-                :aria-labelledby="title.toLowerCase().replace(' ', '-')"
+                {{-- :aria-labelledby="title.toLowerCase().replace(' ', '-')" --}}
                 class="flex flex-col items-center justify-center w-full"
                 @keydown.arrow-right="state.usedKeyboard = true;updateCurrent(nextSlide)"
                 @keydown.arrow-left="state.usedKeyboard = true;updateCurrent(previousSlide)"
@@ -283,10 +283,10 @@
 
                 <div :id="title.toLowerCase().replace(' ', '-')" class="sr-only" x-text="title"></div>
                 
-				<h2 class="pt-10 text-2xl lg:text-4xl font-bold leading-tight tracking-tight uppercase">Sponsors</h2>	         
+				<h2 class="pt-10 text-2xl lg:text-4xl font-bold leading-tight tracking-tight uppercase">Sponsors</h2>
+				<a class="inline-block mt-1 mb-2 font-semibold text-yellow-500 border-b-2 border-white hover:border-yellow-500 transition-all duration-300" href="/sponsors">Find our more abour our sponsors</a>
                  
                 <div
-                    tabindex="1"
                     class="relative w-full overflow-hidden"
                     :class="{'focus:outline-none' : !state.usedKeyboard}">
 

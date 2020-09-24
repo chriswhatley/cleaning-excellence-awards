@@ -18,9 +18,7 @@
 		<div class="mt-6 xl:flex xl:justify-between xl:items-center">
 			<div class="w-full sm:w-2/3 md:w-4/5 lg:w-3/5 mx-auto xl:mt-16">
 				<a href="{{ $page->baseUrl }}assets/docs/{{ $award->criteria }}" class="flex justify-center items-center px-4 py-3 bg-yellow-500 text-white font-bold uppercase rounded-lg text-md" target="_blank">
-					@php  
-						echo file_get_contents($page->baseUrl.'assets/images/icons/'.$award->icon.'.svg');  
-					@endphp
+					<img src="{{ $page->baseUrl }}assets/images/icons/{{ $award->icon }}.svg" alt="Icon" class="w-5 h-5">
 					<span class="ml-3">Award Criteria</span>
 				</a>
 			</div>

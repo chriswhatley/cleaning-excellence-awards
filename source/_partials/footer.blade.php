@@ -153,7 +153,7 @@
                         <svg class="mr-3 w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">                               
                             <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"/>
                         </svg>                        
-                        <a href="/" class="footer-link">Sponsors</a>
+                        <a href="/sponsors" class="footer-link">Sponsors</a>
                     </div>                 
                 </li>
                 <li>
@@ -177,7 +177,7 @@
                         <svg class="mr-3 w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">                               
                             <path d="m6.14054,16.661362c-0.641151,0 -1.154072,-0.256458 -1.602878,-0.641151c-0.897611,-0.89761 -0.897611,-2.308143 0,-3.205755l3.654562,-3.718676c0.064116,-0.064115 0.064116,-0.12823 0,-0.192346l-3.654562,-3.718676c-0.897611,-0.897612 -0.897611,-2.308144 0,-3.205756c0.448806,-0.448806 1.025842,-0.641151 1.602878,-0.641151c0,0 0,0 0,0c0.641151,0 1.154072,0.25646 1.602878,0.641151l5.962704,6.02682c0.577037,0.577036 0.577037,1.474648 0,1.98757l-5.962704,6.026818c-0.38469,0.384693 -0.961726,0.641151 -1.602878,0.641151c0,0 0,0 0,0z"/>
                         </svg>                        
-                        <a href="/" class="footer-link">FAQs</a>
+                        <a href="/faq" class="footer-link">FAQs</a>
                     </div>                 
                 </li>
             </ul>
@@ -243,13 +243,13 @@
 
 	<!-- Small Print -->
 	<div class="bg-yellow-500 font-semibold">
-        <div class="container mx-auto w-full px-6 pb-2 text-white text-left uppercase footer">              
-            <div class="lg:flex lg:justify-between pt-4 text-sm">
-                <div class="w-full pb-2">
+        <div class="container mx-auto w-full px-6 pb-3 text-white text-left uppercase footer">              
+            <div class="lg:flex lg:justify-between lg:items-center pt-4 text-sm">
+                <div class="w-full py-2">
                     &copy; Western Business Media Limited 2020 <br class="block sm:hidden" />All Rights Reserved
                 </div>                    
                 <div class="w-full lg:text-right">
-                    <a href="/terms" class="text-sm">Terms &amp; Conditions</a>  <span class="inline-block mx-2">|</span>  <a href="/privacy">Privacy &amp; Cookie Policy</a>
+                    <a href="/terms" class="inline-block py-2 pr-2 text-sm">Terms &amp; Conditions</a>  <span class="inline-block mx-2">|</span>  <a href="/privacy" class="inline-block pl-2 py-2">Privacy &amp; Cookie Policy</a>
                 </div>                        
             </div>
         </div> 

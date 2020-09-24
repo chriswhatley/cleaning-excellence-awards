@@ -749,7 +749,9 @@ div[class*="gallery-tile-"] {
   transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, -webkit-transform;
   transition-duration: 300ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  letter-spacing: -0.025em
+  letter-spacing: -0.025em;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem
 }
 
 .footer-link:hover {
@@ -883,8 +885,12 @@ div[class*="gallery-tile-"] {
   max-height: 0;
 }
 
-.faq p {
+.faq p, .sponsor p {
   padding-bottom: 0.75rem
+}
+
+.faq p:last-of-type, .sponsor p:last-of-type {
+  padding-bottom: 0
 }
 
 /* DEBUGGING - REMOVE FOR STAGING/PRODUCTION */
