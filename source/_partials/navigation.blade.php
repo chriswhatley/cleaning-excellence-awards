@@ -1,6 +1,6 @@
 <header class="fixed w-full px-3 py-4 lg:px-12 lg:py-6 bg-black text-white flex justify-between z-20">            
         
-    <a href="/">
+    <a href="{{ $page->baseUrl }}">
         <img src="{{ $page->baseUrl }}/assets/images/layout/she-awards-apr21-logo.svg" alt="The SHE Awards 2020" class="h-16 lg:h-24 w-auto">
     </a>                
         
@@ -64,7 +64,7 @@
 
                     <ul>
                         <li>
-                            <a href="/" class="nav-item">                                
+                            <a href="{{ $page->baseUrl }}" class="nav-item">                                
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 -mt-1 mr-3">
                                     <path d="M8 20H3V10H0L10 0l10 10h-3v10h-5v-6H8v6z"/>
                                 </svg>
@@ -72,7 +72,7 @@
                             </a>
                         </li>                            
                         <li>
-                        	<a href="/awards" class="nav-item">
+                        	<a href="{{ $page->baseUrl }}/awards" class="nav-item">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 -mt-1 mr-3">
                                     <path d="M3 6c0-1.1.9-2 2-2h8l4-4h2v16h-2l-4-4H5a2 2 0 0 1-2-2H1V6h2zm8 9v5H8l-1.67-5H5v-2h8v2h-2z"/>
                                 </svg>
@@ -80,7 +80,7 @@
                         	</a>
                         </li>                                                            
                         <li>
-                        	<a href="/shortlist" class="nav-item">
+                        	<a href="{{ $page->baseUrl }}/shortlist" class="nav-item">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 -mt-1 mr-3">
                                     <path d="M10 12a6 6 0 1 1 0-12 6 6 0 0 1 0 12zm0-3a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm4 2.75V20l-4-4-4 4v-8.25a6.97 6.97 0 0 0 8 0z"/>
                                 </svg>
@@ -88,7 +88,7 @@
                         	</a>
                         </li>                            
                         <li>
-                        	<a href="/charity" class="nav-item">
+                        	<a href="{{ $page->baseUrl }}/charity" class="nav-item">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 -mt-1 mr-3">
                                     <path d="M10 3.22l-.61-.6a5.5 5.5 0 0 0-7.78 7.77L10 18.78l8.39-8.4a5.5 5.5 0 0 0-7.78-7.77l-.61.61z"/>
                                 </svg>
@@ -96,15 +96,7 @@
                         	</a>
                         </li>                            
                         <li>
-                        	<a href="" class="nav-item">
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 -mt-1 mr-3">                                    
-                                    <path d="M0 0l20 8-8 4-2 8z"/>
-                                </svg>
-                        		The Venue
-                        	</a>
-                        </li>
-                        <li>
-                            <a href="/sponsors" class="nav-item">
+                            <a href="{{ $page->baseUrl }}/sponsors" class="nav-item">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 -mt-1 mr-3">
                                     <path d="M15 9a3 3 0 0 0 3-3h2a5 5 0 0 1-5.1 5 5 5 0 0 1-3.9 3.9V17l5 2v1H4v-1l5-2v-2.1A5 5 0 0 1 5.1 11H5a5 5 0 0 1-5-5h2a3 3 0 0 0 3 3V4H2v2H0V2h5V0h10v2h5v4h-2V4h-3v5z"/>
                                 </svg>
@@ -112,7 +104,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="/sponsorship" class="nav-item">
+                            <a href="{{ $page->baseUrl }}/sponsorship" class="nav-item">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 -mt-1 mr-3">
                                     <path d="M7.667 12H2v8H0V0h12l.333 2H20l-3 6 3 6H8l-.333-2z"/>
                                 </svg>
@@ -120,7 +112,7 @@
                             </a>
                         </li>
                         <li>
-                        	<a href="/faq" class="nav-item">
+                        	<a href="{{ $page->baseUrl }}/faq" class="nav-item">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 -mt-1 mr-3">                                    
                                     <path d="M18 11v7a2 2 0 0 1-4 0v-5h-2V3a3 3 0 0 1 3-3h3v11zM4 10a2 2 0 0 1-2-2V1a1 1 0 0 1 2 0v4h1V1a1 1 0 0 1 2 0v4h1V1a1 1 0 0 1 2 0v7a2 2 0 0 1-2 2v8a2 2 0 0 1-4 0v-8z"/>
                                 </svg>
@@ -128,7 +120,7 @@
                         	</a>
                         </li>                            
                         <li>
-                        	<a href="/contact" class="nav-item">
+                        	<a href="{{ $page->baseUrl }}/contact" class="nav-item">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 -mt-1 mr-3">
                                     <path d="M18 2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4c0-1.1.9-2 2-2h16zm-4.37 9.1L20 16v-2l-5.12-3.9L20 6V4l-10 8L0 4v2l5.12 4.1L0 14v2l6.37-4.9L10 14l3.63-2.9z"/>
                                 </svg>
@@ -136,7 +128,7 @@
                         	</a>
                         </li>                            
                         <li>
-                        	<a href="/tickets" class="nav-item bg-yellow-500">
+                        	<a href="{{ $page->baseUrl }}/tickets" class="nav-item bg-yellow-500">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 -mt-1 mr-3">
                                     <path d="M0 10V2l2-2h8l10 10-10 10L0 10zm4.5-4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
                                 </svg>

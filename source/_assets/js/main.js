@@ -102,6 +102,7 @@ window.sponsorSlideshow = function(slides) {
     }
 }
 
+// sponsor slides for homepage carousel
 window.slides = [                
     {
         content: `
@@ -165,7 +166,6 @@ window.slides = [
             `, 
     },
 ];
-
 
 // FAQ questions - dynamically generated Alpine Accordion
 window.faq = [

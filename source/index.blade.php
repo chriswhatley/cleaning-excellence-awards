@@ -29,7 +29,7 @@
                 <span class="block mx-auto mt-2 lg:mt-0 px-4 text-sm lg:text-xl tracking-wide">28<sup class="lg:text-xs">th</sup> April 2021 <span class="hidden sm:inline"> - </span><br class="block sm:hidden" /> Vox, Resorts World, Birmingham</span>
             </h1>           
             <div class="mt-6 sm:mt-8 text-center">
-        		<a href="/tickets" class="btn-primary w-3/4 max-w-xs text-md sm:text-sm md:text-md lg:text-lg">
+        		<a href="{{ $page->baseUrl }}/tickets" class="btn-primary w-3/4 max-w-xs text-md sm:text-sm md:text-md lg:text-lg">
         			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
         				<path d="M0 10V2l2-2h8l10 10-10 10L0 10zm4.5-4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
         			</svg>
@@ -61,7 +61,7 @@
 
             <div class="sm:flex justify-center mt-6 text-white">
             	<div class="sm:flex sm:w-1/2 px-6 justify-center">
-            		<a href="/awards" class="btn-primary w-full md:w-2/3 text-md">
+            		<a href="{{ $page->baseUrl }}/awards" class="btn-primary w-full md:w-2/3 text-md">
             			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
             				<path d="M3 6c0-1.1.9-2 2-2h8l4-4h2v16h-2l-4-4H5a2 2 0 0 1-2-2H1V6h2zm8 9v5H8l-1.67-5H5v-2h8v2h-2z"/>
             			</svg>
@@ -70,7 +70,7 @@
             	</div>
 
             	<div class="sm:flex sm:w-1/2 px-6 pt-6 sm:pt-0 justify-center">
-            		<a href="/shortlist" class="btn-primary w-full md:w-2/3 text-md">
+            		<a href="{{ $page->baseUrl }}/shortlist" class="btn-primary w-full md:w-2/3 text-md">
             			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
             				<path d="M10 12a6 6 0 1 1 0-12 6 6 0 0 1 0 12zm0-3a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm4 2.75V20l-4-4-4 4v-8.25a6.97 6.97 0 0 0 8 0z"/>
             			</svg>
@@ -121,7 +121,7 @@
 						<p class="sm:px-6">Alistair McGowan has been hailed by  The Times as a ‘voice virtuoso.’ His  repertoire includes a gallery of  politicians, pop stars and sportsmen –like a romp through the news,  gossip columns and back  page headlines.</p>        											    		            	
 
 		            	<div class="mt-6 text-center">
-		            		<a href="/host" class="btn-primary w-4/5 max-w-xs">
+		            		<a href="{{ $page->baseUrl }}/host" class="btn-primary w-4/5 max-w-xs">
 		            			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
 		            				<path d="M15.75 8l-3.74-3.75a3.99 3.99 0 0 1 6.82-3.08A4 4 0 0 1 15.75 8zM1.85 15.3l9.2-9.19 2.83 2.83-9.2 9.2-2.82-2.84zm-1.4 2.83l2.11-2.12 1.42 1.42-2.12 2.12-1.42-1.42zM10 15l2-2v7h-2v-5z"/>
 		            			</svg>
@@ -142,7 +142,7 @@
 	        			<h3 class="lg:text-2xl font-bold leading-tight tracking-tight uppercase">Awards Host<br /> Alistair McGowan</h3>
 		        		<p class="mt-6 pr-16">Alistair McGowan has been hailed by  The Times as a ‘voice virtuoso.’ His  repertoire includes a gallery of  politicians, pop stars and sportsmen –like a romp through the news,  gossip columns and back  page headlines.</p>        		
 		        		<div class="mt-10">
-		        			<a href="/host" class="btn-primary w-4/5 max-w-xs">		            	
+		        			<a href="{{ $page->baseUrl }}/host" class="btn-primary w-4/5 max-w-xs">		            	
 		            			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
 		            				<path d="M15.75 8l-3.74-3.75a3.99 3.99 0 0 1 6.82-3.08A4 4 0 0 1 15.75 8zM1.85 15.3l9.2-9.19 2.83 2.83-9.2 9.2-2.82-2.84zm-1.4 2.83l2.11-2.12 1.42 1.42-2.12 2.12-1.42-1.42zM10 15l2-2v7h-2v-5z"/>
 		            			</svg>
@@ -158,7 +158,7 @@
 						<div class="px-6 py-16 ">									
 							<h3 class="lg:text-2xl font-bold leading-tight tracking-tight uppercase text-white text-center">SHE Awards Gallery</h3>
 			            	<div class="mt-6 text-center">
-			            		<a href="/gallery" class="btn-primary w-4/5 max-w-xs">
+			            		<a href="{{ $page->baseUrl }}/gallery" class="btn-primary w-4/5 max-w-xs">
 			            			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
 			            				<path d="M0 6c0-1.1.9-2 2-2h3l2-2h6l2 2h3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6zm10 10a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0-2a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
 			            			</svg>
@@ -184,7 +184,7 @@
 						<div class="px-6 py-16 bg-gray-800">									
 							<h3 class="lg:text-2xl font-bold leading-tight tracking-tight uppercase text-white text-center">SHE Awards Categories</h3>				    	   	
 			            	<div class="mt-6 text-center">
-			            		<a href="/awards" class="btn-primary w-4/5 max-w-xs">
+			            		<a href="{{ $page->baseUrl }}/awards" class="btn-primary w-4/5 max-w-xs">
 			            			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
 			            				<path d="M0 6c0-1.1.9-2 2-2h3l2-2h6l2 2h3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6zm10 10a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0-2a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
 			            			</svg>
@@ -197,7 +197,7 @@
 		        		<div class="px-6 py-16 bg-yellow-500">									
 							<h3 class="lg:text-2xl font-bold leading-tight tracking-tight uppercase text-white text-center">SHE Awards Shortlist</h3>
 			            	<div class="mt-6 text-center">
-			            		<a href="/shortlist" class="btn-primary bg-gray-800 w-4/5 max-w-xs">
+			            		<a href="{{ $page->baseUrl }}/shortlist" class="btn-primary bg-gray-800 w-4/5 max-w-xs">
 			            			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
 			            				<path d="M0 6c0-1.1.9-2 2-2h3l2-2h6l2 2h3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6zm10 10a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0-2a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
 			            			</svg>
@@ -216,11 +216,11 @@
 	        					<h3 class="text-center sm:text-left lg:text-2xl font-bold leading-tight tracking-tight uppercase">Charity Partner</h3>
 	        					<p class="mt-6 md:mt-4 lg:mt-6 sm:pr-4 md:pr-6">We are delighted to announce that  the Lighthouse Construction  Industry Charity this year's SHE  Awards charity partner.</p>	
 	        				</div>	    
-	        				<img src="assets/images/layout/Lighthouse-charity.svg" alt="The Lighthouse Club" class="my-6 sm:my-0 mx-auto w-40 md:w-32 xl:w-48 h-auto">
+	        				<img src="{{ $page->baseUrl }}/assets/images/layout/Lighthouse-charity.svg" alt="The Lighthouse Club" class="my-6 sm:my-0 mx-auto w-40 md:w-32 xl:w-48 h-auto">
 	        			</div>
 		        		<p class="mt-6 sm:mt-4 lg:mt-6">The Lighthouse Club is the only charity that provides financial and emotional support to the construction community and their families who have suffered an injury, illness or just need some extra support.  </p>        		
 		        		<div class="mt-10 sm:mt-6 lg:mt-10 text-center">
-		            		<a href="/charity" class="btn-primary w-4/5 max-w-xs">
+		            		<a href="{{ $page->baseUrl }}/charity" class="btn-primary w-4/5 max-w-xs">
 		            			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
 		            				<path d="M15.75 8l-3.74-3.75a3.99 3.99 0 0 1 6.82-3.08A4 4 0 0 1 15.75 8zM1.85 15.3l9.2-9.19 2.83 2.83-9.2 9.2-2.82-2.84zm-1.4 2.83l2.11-2.12 1.42 1.42-2.12 2.12-1.42-1.42zM10 15l2-2v7h-2v-5z"/>
 		            			</svg>
@@ -270,67 +270,7 @@
       
   		{{-- Sponsors Carousel --}}
         <div class="hidden md:flex items-center justify-center bg-white">
-
-            <section
-                {{-- :aria-labelledby="title.toLowerCase().replace(' ', '-')" --}}
-                class="flex flex-col items-center justify-center w-full"
-                @keydown.arrow-right="state.usedKeyboard = true;updateCurrent(nextSlide)"
-                @keydown.arrow-left="state.usedKeyboard = true;updateCurrent(previousSlide)"
-                @keydown.window.tab="state.usedKeyboard = true"
-                x-data="sponsorSlideshow(slides)"
-                x-title="SHE Awards Sponsors"
-                x-init="setup()">
-
-                <div :id="title.toLowerCase().replace(' ', '-')" class="sr-only" x-text="title"></div>
-                
-				<h2 class="pt-10 text-2xl lg:text-4xl font-bold leading-tight tracking-tight uppercase">Sponsors</h2>
-				<a class="inline-block mt-1 mb-2 font-semibold text-yellow-500 border-b-2 border-white hover:border-yellow-500 transition-all duration-300" href="/sponsors">Find our more abour our sponsors</a>
-                 
-                <div
-                    class="relative w-full overflow-hidden"
-                    :class="{'focus:outline-none' : !state.usedKeyboard}">
-
-                    <template x-for="(slide, index) in slides" :key="slide.id">
-                        <div :aria-hidden="(state.order[state.currentSlide] != slide.id).toString()">
-                            <div
-                                x-show="state.order[state.currentSlide] == slide.id"
-                                class="w-full text-center py-3"
-                                :x-ref="slide.id"
-                                :x-transition:enter="transitions('enter')"
-                                :x-transition:enter-start="transitions('enter-start')"
-                                :x-transition:enter-end="transitions('enter-end')"
-                                :x-transition:leave="transitions('leave')"
-                                :x-transition:leave-start="transitions('leave-start')"
-                                :x-transition:leave-end="transitions('leave-end')"
-                                >                 
-
-                                <div
-                                    class="text-2xl font-extrabold italic mb-4 text-gray-800 leading-tight"
-                                    x-html="slide.content">
-                                </div>
-                            </div>
-                        </div>
-                    </template>       
-                </div>
-               
-                <div aria-live="polite" aria-atomic="true" class="sr-only" x-text="'Slide ' + (state.currentSlide + 1) + ' of ' + slides.length"></div>
-               
-                <div>
-                    <template x-for="(slide, index) in Array.from({ length: slides.length })" :key="index">
-                        <button
-                            class="text-white inline-flex items-center justify-center bg-gray-600 hover:bg-yellow-500 w-4 h-4 p-0 mb-10 rounded-full"
-                            style="text-indent:-9999px"
-                            :class="{
-                                'bg-yellow-500' : state.currentSlide == index,
-                                'focus:outline-none' : !state.usedKeyboard,
-                            }"
-                            @click="stopAutoplay();updateCurrent(index)"
-                            x-text="index + 1">
-                        </button>
-                    </template>
-                </div>
-            </section>
-        
+          @include('_partials/sponsor-carousel')
         </div>
 
 		{{-- Map --}}

@@ -7,10 +7,10 @@
 			<h2 class="w-full text-center md:text-left mt-2 text-3xl text-grey-800 font-semibold uppercase">{{ $sponsor->name }}</h2>										
 			<div class="w-full flex justify-center md:justify-start mt-3 flex text-md uppercase font-semibold lg:tracking-tighter flex items-center">		
 
-				<a href="/awards" class="flex">
+				<a href="{{ $page->baseUrl }}/awards" class="flex">
 					<div class="w-6 text-yellow-500 fill-current">
 						@php  
-							echo file_get_contents($page->baseUrl.'assets/images/icons/'.$sponsor->icon.'.svg');  
+							echo file_get_contents($page->baseUrl.'/assets/images/icons/'.$sponsor->icon.'.svg');  
 						@endphp	
 					</div>
 					<div class="ml-2">
@@ -24,7 +24,7 @@
 				
 				<div class="hidden md:block float-right ml-2 mb-3">
 					<a href="{{ $sponsor->website }}" target="_blank" rel="noopener">
-						<img class="md:w-72 lg:w-84" src="/assets/images/sponsors/carousel/{{ $sponsor->logo }}.svg" alt="Logo : {{ $sponsor->name }} ">
+						<img class="md:w-72 lg:w-84" src="{{ $page->baseUrl }}/assets/images/sponsors/carousel/{{ $sponsor->logo }}.svg" alt="Logo : {{ $sponsor->name }} ">
 					</a>		
 				</div>
 
@@ -32,7 +32,7 @@
 
 				<div class="md:hidden">
 					<a href="{{ $sponsor->website }}" target="_blank" rel="noopener">
-						<img class="w-64 mx-auto" src="/assets/images/sponsors/carousel/{{ $sponsor->logo }}.svg" alt="Logo : {{ $sponsor->name }} ">
+						<img class="w-64 mx-auto" src="{{ $page->baseUrl }}/assets/images/sponsors/carousel/{{ $sponsor->logo }}.svg" alt="Logo : {{ $sponsor->name }} ">
 					</a>		
 				</div>
 				
