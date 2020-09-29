@@ -1,8 +1,10 @@
 # Safety & Health Excellence (SHE) Awards
 
-**Author:** Chris Whatley
+###### Author
+Chris Whatley
 
-**Site:** SHE Awards (https://she-awards.netlify.app)
+###### Site
+SHE Awards (https://she-awards.netlify.app)
 
 ###### Built with
 Jigsaw (https://jigsaw.tighten.co/)
