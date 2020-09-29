@@ -216,7 +216,7 @@
 	        					<h3 class="text-center sm:text-left lg:text-2xl font-bold leading-tight tracking-tight uppercase">Charity Partner</h3>
 	        					<p class="mt-6 md:mt-4 lg:mt-6 sm:pr-4 md:pr-6">We are delighted to announce that  the Lighthouse Construction  Industry Charity this year's SHE  Awards charity partner.</p>	
 	        				</div>	    
-	        				<img src="{{ $page->baseUrl }}/assets/images/layout/Lighthouse-charity.svg" alt="The Lighthouse Club" class="my-6 sm:my-0 mx-auto w-40 md:w-32 xl:w-48 h-auto">
+	        				<img src="{{ $page->baseUrl }}/assets/images/layout/lighthouse-charity.svg" alt="The Lighthouse Club" class="my-6 sm:my-0 mx-auto w-40 md:w-32 xl:w-48 h-auto">
 	        			</div>
 		        		<p class="mt-6 sm:mt-4 lg:mt-6">The Lighthouse Club is the only charity that provides financial and emotional support to the construction community and their families who have suffered an injury, illness or just need some extra support.  </p>        		
 		        		<div class="mt-10 sm:mt-6 lg:mt-10 text-center">
@@ -270,7 +270,9 @@
       
   		{{-- Sponsors Carousel --}}
         <div class="hidden md:flex items-center justify-center bg-white">
-          @include('_partials/sponsor-carousel')
+
+			@include('_partials/sponsor-carousel')
+
         </div>
 
 		{{-- Map --}}
