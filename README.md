@@ -1,15 +1,10 @@
 # Safety & Health Excellence (SHE) Awards
 
-/* TEAM */
-Your title: Chris Whatley
-Site: email, link to a contact form, etc.
-Location: East Grinstead, West Sussex, England.
+**Author:** Chris Whatley
+**Site:** [SHE Awards] (https://she-awards.netlify.app)
 
-/* THANKS */
-Name: name or url
+###### Built with
+[Jigsaw] (https://jigsaw.tighten.co/), [Tailwindcss] (https://tailwindcss.com/), [AlpineJS] (https://github.com/alpinejs/alpine), [SplideJS] (https://splidejs.com/), [Modernizr] (https://modernizr.com/), [GitHub] (https://github.com/)
 
-/* SITE */
-Last update: YYYY/MM/DD 
-Standards: HTML5, CSS3,..
-Components: Modernizr, jQuery, etc.
-Software: Software used for the development
+###### Hosted with
+[Netlify] (https://www.netlify.com/)
