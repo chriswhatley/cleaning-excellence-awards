@@ -1,12 +1,12 @@
 # Safety & Health Excellence (SHE) Awards
 
-###### Author
+### Author
 Chris Whatley
 
-###### Site
+### Site
 SHE Awards (https://she-awards.netlify.app)
 
-###### Built with
+### Built with
 Jigsaw (https://jigsaw.tighten.co/)
 
 Tailwindcss (https://tailwindcss.com/)
@@ -19,5 +19,5 @@ Modernizr (https://modernizr.com/)
 
 GitHub (https://github.com/)
 
-###### Hosted with
+### Hosted with
 Netlify (https://www.netlify.com/)
