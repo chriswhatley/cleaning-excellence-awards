@@ -227,10 +227,10 @@
 
                     <div class="flex items-start mt-3">
                         <div class="flex w-full text-white tracking-tight">
-                            <a class="h-8 w-8" href="https://www.linkedin.com/company/air-user-live" target="_blank" rel="noopener">
+                            <a class="h-8 w-8" href="https://www.linkedin.com/company/the-safety-health-excellence-awards" target="_blank" rel="noopener">
                                <img src="{{ $page->baseUrl }}/assets/images/icons/linkedin-icon.svg" alt="LinkedIn">
                             </a>
-                            <a class="h-8 w-8 ml-2" href="https://twitter.com/AirUserLive" target="_blank" rel="noopener">
+                            <a class="h-8 w-8 ml-2" href="https://twitter.com/she_awards" target="_blank" rel="noopener">
                                 <img src="{{ $page->baseUrl }}/assets/images/icons/twitter-icon.svg" alt="Twitter">
                             </a>
                         </div>

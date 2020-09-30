@@ -21,7 +21,7 @@
 					<p class="mt-6 md:mt-6 md:pr-4">The Lighthouse Construction Industry Charity is the only charity that provides financial and emotional support to the construction community and their families who have suffered an injury, illness or just need some extra support.</p>									
 		
 					<div class="w-full flex justify-center mt-6 md:w-1/2 md:float-right md:ml-6 md:mb-6 lg:ml-8 lg:mb-8">
-						<img src="/assets/images/layout/charity-partner-lighthouse-club-logo.svg" alt="The Lighthouse Club" class="w-3/5 sm:w-1/2 md:w-2/3">
+						<img src="{{ $page->baseUrl }}/assets/images/layout/charity-partner-lighthouse-club-logo.svg" alt="The Lighthouse Club" class="w-3/5 sm:w-1/2 md:w-2/3">
 					</div>
 			
 					<p class="mt-6">The charity provides a 24 /7 Construction Industry Helpline which is the first point of contact to access a range of completely free and confidential support services including:</p>					

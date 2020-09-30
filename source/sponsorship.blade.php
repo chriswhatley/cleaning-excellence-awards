@@ -8,7 +8,7 @@
 	{{-- Main Content --}}
 	<main class="relative bg-white w-full z-10">
 
-		@include('_components.title-component', ['title' => 'Sponsorship Opportunities', 'background_image' => 'header-a'])
+		@include('_components.title-component', ['title' => 'Sponsorship Opportunities', 'background_image' => 'header-c'])
 
 		<section class="container mx-auto md:py-10 px-5 md:px-6">  
 
@@ -22,7 +22,7 @@
 					<p class="mt-6 md:mt-0">The Awards celebrate innovation and achievements in the health, safety and fire sectors. The ceremony will encompass the long-established British Safety Industry Federation (BSIF) Awards that promote the importance of innovation and underline the highest standards of excellence within occupational safety and health.</p>
 					<p class="mt-6">The awards will once again be held at the prestigious VOX Conference Centre on {{ $page->awardsDate }} at the NEC, Birmingham. With the leading safety, health and fire safety brands on site for The Health & Safety Event, The Fire Safety Event. The Facilities Event, this is the ideal opportunity for the industry to gather to celebrate excellence.</p>
 					<div class="mt-4 text-center md:text-left">
-						<a href="" class="btn-primary mt-4 text-md sm:text-sm md:text-md">
+						<a href="{{ $page->baseUrl }}/assets/docs/she-awards-sales-brochure-2020.pdf" target="_blank" class="btn-primary mt-4 text-md sm:text-sm md:text-md">
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 mr-2">
 								<path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/>
 							</svg>

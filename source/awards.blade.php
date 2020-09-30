@@ -14,7 +14,7 @@ pagination:
 	{{-- Main Content --}}
     <main class="relative bg-white w-full z-10">
 
-    	@include('_components.title-component', ['title' => 'The Awards', 'background_image' => 'header-b'])
+    	@include('_components.title-component', ['title' => 'The Awards', 'background_image' => 'header-a'])
        
         <section class="container mx-auto py-10 px-6">
 

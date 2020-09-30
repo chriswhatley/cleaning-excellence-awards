@@ -8,7 +8,7 @@
 	{{-- Main Content --}}
 	<main class="relative bg-white w-full z-10">
 
-		@include('_components.title-component', ['title' => 'Gallery', 'background_image' => 'header-b'])
+		@include('_components.title-component', ['title' => 'Gallery', 'background_image' => 'header-d'])
 
 		<section class="container mx-auto px-6">  
 			<div class="w-full mt-6 md:flex">
@@ -25,7 +25,7 @@
 					<p class="w-full mt-6">Use the arrows to scroll through the album or check out pictures of our guests in fancy dress in our photobooth.</p>
 					<div class="mt-6 w-4/5 md:w-3/5 mx-auto flex flex-wrap justify-center">
 						<span class="w-full text-center">Sponsored by</span>
-						<img src="/assets/images/sponsors/carousel/havi.svg" alt="Havi" class="w-full sm:w-96 h-auto">
+						<img src="{{ $page->baseUrl }}/assets/images/sponsors/carousel/havi.svg" alt="Havi" class="w-full sm:w-96 h-auto">
 					</div>
 				</div>
 

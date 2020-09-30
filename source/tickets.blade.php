@@ -8,7 +8,7 @@
 	{{-- Main Content --}}
 	<main class="relative bg-white w-full z-10">
 
-		@include('_components.title-component', ['title' => 'Buy Tickets', 'background_image' => 'header-a'])
+		@include('_components.title-component', ['title' => 'Buy Tickets', 'background_image' => 'header-d'])
 
 		<section class="container mx-auto px-6">  
 

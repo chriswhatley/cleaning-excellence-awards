@@ -21,9 +21,9 @@ mix.options({
     ]
   })
   .postCss('source/_assets/css/main.css', 'css/main.css')
-  .js(['source/_assets/js/main.js', 'source/_assets/js/modernizr-webp.js'], 'js/main.js')
+  .js(['source/_assets/js/modernizr-webp.js', 'source/_assets/js/main.js'], 'js/main.js')
   .purgeCss({
     folders: ['source'],
-    whitelistPatternsChildren: [/^no-webp/, /^splide__pagination/],
+    whitelistPatternsChildren: [/^no-webp/],
   })
   .version();
