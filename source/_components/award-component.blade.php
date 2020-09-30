@@ -6,7 +6,7 @@
 		<div class="flex-1">
 			<div class="text-center">			
 				<div class="flex justify-center">
-					<img class="mr-4 h-6 w-6" src="{{ $page->baseUrl }}/assets/images/icons/{{ $award->icon }}.svg " alt="Icon">	
+					<img class="mr-4 h-6 w-6" src="{{ $page->baseUrl }}/assets/images/icons/{{ $award->icon }}.svg" alt="Icon">	
 				</div>
 				<h3 class="mt-2 text-xl text-grey-800 font-semibold uppercase">{{ $award->title }}</h3>										
 			</div>	
