@@ -9,9 +9,7 @@
 
 				<a href="{{ $page->baseUrl }}/awards" class="flex">
 					<div class="w-6">
-						@php  
-							echo file_get_contents($page->baseUrl.'/assets/images/icons/'.$sponsor->icon.'-yellow.svg');  
-						@endphp	
+						<img class="mr-4 h-6 w-6 fill-current text-yellow-500" src="{{ $page->baseUrl }}/assets/images/icons/{{ $sponsor->icon }}.svg" alt="Icon">
 					</div>
 					<div class="ml-2">
 						{{ $sponsor->sponsorship }}	
