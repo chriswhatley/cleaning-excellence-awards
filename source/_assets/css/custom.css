@@ -229,6 +229,15 @@ div[class*="gallery-tile-"] {
 	@apply pb-0
 }
 
+.smallprint 
+    h4 {
+        @apply mt-10 mb-1 font-semibold uppercase
+    }
+
+    p {
+        @apply mb-4
+    }
+
 /* Splide Slider Theme : Sea Green - adapted for SHE Awards colour pallette */
 
 /*! purgecss start ignore */

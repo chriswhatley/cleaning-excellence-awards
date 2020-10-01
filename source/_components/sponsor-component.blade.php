@@ -8,9 +8,9 @@
 			<div class="w-full flex justify-center md:justify-start mt-3 flex text-md uppercase font-semibold lg:tracking-tighter flex items-center">		
 
 				<a href="{{ $page->baseUrl }}/awards" class="flex">
-					<div class="w-6 text-yellow-500 fill-current">
+					<div class="w-6">
 						@php  
-							echo file_get_contents($page->baseUrl.'/assets/images/icons/'.$sponsor->icon.'.svg');  
+							echo file_get_contents($page->baseUrl.'/assets/images/icons/'.$sponsor->icon.'-yellow.svg');  
 						@endphp	
 					</div>
 					<div class="ml-2">
