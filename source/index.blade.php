@@ -286,14 +286,14 @@
             <div class="text-center">
                 <h2 class="text-2xl lg:text-4xl font-bold leading-tight tracking-tight uppercase">Organised By</h2>                
                 <div class="py-6 flex">
-                	<div class="w-1/3 flex justify-center">
-                		<img class="w-20 sm:w-40 md:w-48 lg:w-56 h-auto" src="assets/images/organisers/western-business-media.svg" alt="Western Business Media">
+                	<div class="px-3 w-1/3 flex justify-center">
+                		<img class="h-24 md:h-40" src="assets/images/organisers/western-business-media.svg" alt="Western Business Media">
                 	</div>
-                	<div class="w-1/3 flex justify-center">
-                		<img class="w-20 sm:w-40 md:w-48 lg:w-56 h-auto" src="assets/images/organisers/hsm.svg" alt="Health & Safety Matters">
+                	<div class="px-3 w-1/3 flex justify-center">
+                		<img class="h-24 md:h-40" src="assets/images/organisers/hsm.svg" alt="Health & Safety Matters">
                 	</div>
-                	<div class="w-1/3 flex justify-center">
-                		<img class="w-20 sm:w-40 md:w-48 lg:w-56 h-auto" src="assets/images/organisers/fsm.svg" alt="Fire Safety Matters">
+                	<div class="px-3 w-1/3 flex justify-center">
+                		<img class="h-24 md:h-40" src="assets/images/organisers/fsm.svg" alt="Fire Safety Matters">
                 	</div>
                 </div>
             </div>

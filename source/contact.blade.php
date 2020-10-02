@@ -113,7 +113,7 @@
 						
 						<div class="mx-auto w-full mt-6">
 							<div class="flex justify-center">
-								<img src="/assets/images/layout/contact-wbm-logo.svg">	
+								<img src="/assets/images/layout/contact-wbm-logo.svg" class="h-16">	
 							</div>		
 							<div class="mt-8">
 								<div class="flex">

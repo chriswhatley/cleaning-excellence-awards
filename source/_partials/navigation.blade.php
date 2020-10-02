@@ -41,7 +41,7 @@
             {{-- Nav Menu --}}
             <div class="z-20 fixed top-0 right-0">                    
                <div 
-                    class="w-screen md:w-64 h-screen z-40 origin-top-right bg-black text-white text-md transform overflow-auto flex flex-col shadow-lg"                    
+                    class="w-screen md:w-64 h-screen z-40 origin-top-right bg-black text-white text-md transform shadow-lg"                    
                     x-show="open"                    
                     x-transition:enter="transition duration-300 transform ease-in-out"
                     x-transition:enter-start="translate-x-full"
@@ -49,12 +49,12 @@
                     x-transition:leave-end="translate-x-full"
                 >                   
 			
-					<div class="my-6 flex items-start">
-						<div class="flex w-4/5 pl-3 md:pl-6">
+					<div class="relative my-6">
+						<div class="w-4/5 pl-3 md:pl-6">
 							<img src="{{ $page->baseUrl }}/assets/images/layout/she-awards-apr21-logo.svg" alt="The SHE Awards 2020" class="w-18" @click="open = !open">		                    			
 						</div>
-						<div class="flex md:hidden w-1/5 justify-end p-2 pr-3 sm:pr-4">
-							<button @click="open = !open" class="z-20 text-yellow-500 focus:outline-none focus:border-blue-500 focus:shadow-outline-none">                                       
+						<div class="absolute top-0 right-0 md:hidden w-1/5 sm:pr-4 flex justify-end pt-2 pr-2">
+							<button @click="open = !open" class="relative top-0 right-0 z-20 text-yellow-500 focus:outline-none focus:border-blue-500 focus:shadow-outline-none">                                       
 				                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 22 22" class="w-6 h-6 lg:w-8 lg:h-8 transition-transform duration-200 transform">
 				                    <path d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z"/>
 				                </svg>                       
