@@ -1049,6 +1049,10 @@ div[class*="gallery-tile-"] {
   background-image: url('../images/layout/banquet-compressed.jpg');
 }
 
+footer .watermark {
+  background-image: url('../images/layout/wbm-watermark.svg');
+}
+
 .footer-link {
   transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, -webkit-transform;
   transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
