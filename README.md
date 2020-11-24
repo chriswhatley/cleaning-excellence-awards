@@ -1,10 +1,10 @@
-# Safety & Health Excellence (SHE) Awards
+# Fire & Security Matters (FSM) Awards
 
 ### Author
 Chris Whatley
 
 ### Site
-SHE Awards (https://she-awards.netlify.app)
+FSM Awards (https://fsm-awards.netlify.app)
 
 ### Built with
 Jigsaw (https://jigsaw.tighten.co/)

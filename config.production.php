@@ -2,5 +2,5 @@
 
 return [
     'production' => true,
-    'baseUrl' => 'https://she-awards.netlify.app',
+    'baseUrl' => 'https://fsm-awards.netlify.app',
 ];

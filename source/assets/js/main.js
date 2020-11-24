@@ -6236,9 +6236,9 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/chriswhatley/Projects/SHE Awards/source/_assets/js/modernizr-webp.js */"./source/_assets/js/modernizr-webp.js");
-__webpack_require__(/*! /Users/chriswhatley/Projects/SHE Awards/source/_assets/js/main.js */"./source/_assets/js/main.js");
-module.exports = __webpack_require__(/*! /Users/chriswhatley/Projects/SHE Awards/source/_assets/css/main.css */"./source/_assets/css/main.css");
+__webpack_require__(/*! /Users/chriswhatley/Projects/FSM Awards/prototype/source/_assets/js/modernizr-webp.js */"./source/_assets/js/modernizr-webp.js");
+__webpack_require__(/*! /Users/chriswhatley/Projects/FSM Awards/prototype/source/_assets/js/main.js */"./source/_assets/js/main.js");
+module.exports = __webpack_require__(/*! /Users/chriswhatley/Projects/FSM Awards/prototype/source/_assets/css/main.css */"./source/_assets/css/main.css");
 
 
 /***/ })

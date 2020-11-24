@@ -1,7 +1,7 @@
 <header class="fixed w-full px-3 py-4 lg:px-12 lg:py-6 bg-black text-white flex justify-between z-20">            
         
     <a href="{{ $page->baseUrl }}">
-        <img src="{{ $page->baseUrl }}/assets/images/layout/she-awards-apr21-logo.svg" alt="The SHE Awards 2020" class="h-16 lg:h-24 w-auto">
+        <img src="{{ $page->baseUrl }}/assets/images/layout/she-awards-apr21-logo.svg" alt="The FSM Awards 2022" class="h-16 lg:h-24 w-auto">
     </a>                
         
     <nav class="flex">
@@ -51,7 +51,7 @@
 			
 					<div class="relative my-6">
 						<div class="w-4/5 pl-3 md:pl-6">
-							<img src="{{ $page->baseUrl }}/assets/images/layout/she-awards-apr21-logo.svg" alt="The SHE Awards 2020" class="w-18" @click="open = !open">		                    			
+							<img src="{{ $page->baseUrl }}/assets/images/layout/she-awards-apr21-logo.svg" alt="The FSM Awards 2022" class="w-18" @click="open = !open">		                    			
 						</div>
 						<div class="absolute top-0 right-0 md:hidden w-1/5 sm:pr-4 flex justify-end pt-2 pr-2">
 							<button @click="open = !open" class="relative top-0 right-0 z-20 text-yellow-500 focus:outline-none focus:border-blue-500 focus:shadow-outline-none">                                       
