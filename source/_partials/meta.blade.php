@@ -12,7 +12,7 @@
 <link rel="manifest" href="{{ $page->baseUrl }}/manifest.json">
 <meta name="theme-color" content="#ffffff">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@FSMmagazine">
+<meta name="twitter:site" content="@FSMatters_Mag">
 <meta name="twitter:title" content="{{ $meta_title }}">
 <meta name="twitter:description" content="{{ $meta_description }}">
 <meta name="twitter:image" content="{{ $page->baseUrl }}/assets/images/meta/twitter-card-large.png">

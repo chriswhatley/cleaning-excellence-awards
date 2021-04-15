@@ -1,42 +1,91 @@
+/* CSS HEX */
+/*--onyx: #393d3fff;
+--green-blue-crayola: #008dd2ff;
+--usafa-blue: #0351a4ff;
+--eminence: #5c2f7fff;
+--red-pigment: #ea1d26ff;*/
+
+.striped-gradient {  
+    background-image: 
+        url(../images/layout/diagonal-stripes.svg), 
+        linear-gradient(270deg, #008dd2ff, #0351a4ff, #5c2f7fff, #ea1d26ff);
+    @apply p-10
+}
+
+.divider {
+    @apply striped-gradient p-0
+}
+
+.main-navigation:after {
+    content: ' ';
+    display: block;
+
+    @apply absolute bottom-0 left-0  w-full h-2 pt-2 divider
+}
+
 .nav-item {
-	@apply block px-6 py-3 font-bold uppercase tracking-tight transition duration-300 ease-in-out;
+	@apply block px-3 py-3 font-bold uppercase tracking-tight transition duration-300 ease-in-out;
 }
 
 .nav-item:hover {
-	@apply bg-yellow-500
+	@apply bg-red-pigment-500
+}
+
+@screen sm {
+    .nav-items-container {
+        @apply flex flex-wrap
+    }
+
+    .nav-items-container li {
+        @apply w-1/2 
+    }
+
+    .nav-item {
+        @apply py-1
+    }
+}
+
+@screen md {
+    .nav-items-container li {
+        @apply w-full 
+    }
+
+    .nav-item {
+        @apply py-3
+    }
 }
 
 .btn-primary {
-	@apply inline-block text-center bg-yellow-500 px-4 py-3 rounded-lg uppercase font-bold text-white tracking-tighter	
+	@apply inline-block striped-gradient text-center px-2 py-2 rounded-lg uppercase font-bold text-usafa-blue-700 tracking-tighter	
 }
 
-.hero, .highlights-video {	
-	background-color: rgba(0, 0, 0, 0.50);
+.highlights {	
+	background-color: rgba(0, 0, 0, 0.33);
   	background-blend-mode: soft-light;
 }
 
 .webp .hero {
-	background-image: url('../video/she-awards-background-poster-compressed.webp');
+	background-image: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33)), url('../images/layout/hero-1-compressed.webp');
 }
 
 .no-webp .hero {
-	background-image: url('../video/she-awards-background-poster-compressed.jpg');
+	background-image: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33)), url('../images/layout/hero-1-compressed.jpg');
 }
 
 .webp .host {
-	background-image: url('../images/layout/home-alistair-mcgowan-compressed.webp');
+	background-image: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33)), url('../images/layout/home-hugh-dennis-compressed.webp');
 }
 
 .no-webp .host {
-	background-image: url('../images/layout/home-alistair-mcgowan-compressed.jpg');
+	background-image: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33)), url('../images/layout/home-hugh-dennis-compressed.jpg');
 }
 
 .webp .host-bio {
-	background-image: url('../images/layout/host-alistair-mcgowan.webp');
+	background-image: url('../images/layout/host-hugh-dennis.webp');
 }
 
 .no-webp .host-bio {
-	background-image: url('../images/layout/host-alistair-mcgowan.jpg');
+	background-image: url('../images/layout/host-hugh-dennis.jpg');
 }
 
 .stats h3::after {
@@ -45,7 +94,7 @@
 	width: 30px;
 	height: 5px;
 	margin: 10px auto 15px auto;
-	background-color: #ffffff;
+	@apply bg-gray-800
 }
 
 div[class*="gallery-tile-"] {
@@ -76,12 +125,12 @@ div[class*="gallery-tile-"] {
 	background-image: url('../images/layout/home-gallery-tile-c-compressed.jpg');
 }
 
-.webp .highlights-video {
-	background-image: url('../images/layout/banquet-compressed.webp');
+.webp .highlights {
+	background-image: url('../images/layout/highlights-background-1-compressed.webp');
 }
 
-.no-webp .highlights-video {
-	background-image: url('../images/layout/banquet-compressed.jpg');
+.no-webp .highlights {
+	background-image: url('../images/layout/highlights-background-1-compressed.jpg');
 }
 
 footer .watermark {
@@ -93,23 +142,23 @@ footer .watermark {
 }
 
 .footer-link:hover {
-	@apply text-yellow-500
+	@apply text-red-pigment-500
 }
 
 .webp .header-a {
-	background-image: url('../images/layout/hero-1-compressed.webp');
+	background-image: url('../images/layout/title-header-a-compressed.webp');
 }
 
 .no-webp .header-a {
-	background-image: url('../images/layout/hero-1-compressed.jpg');
+	background-image: url('../images/layout/title-header-a-compressed.jpg');
 }
 
 .webp .header-b {
-	background-image: url('../images/layout/hero-2-compressed.webp');
+	background-image: url('../images/layout/title-header-b-compressed.webp');
 }
 
 .no-webp .header-b {
-	background-image: url('../images/layout/hero-2-compressed.jpg');
+	background-image: url('../images/layout/title-header-b-compressed.jpg');
 }
 
 .webp .header-c {
@@ -145,27 +194,27 @@ footer .watermark {
 }
 
 .webp .sponsorship-brochure {
-	background-image: url('../images/layout/sponsorship-b-compressed.webp');
+	background-image: url('../images/layout/sponsorship-c-compressed.webp');
 }
 
 .no-webp .sponsorship-brochure {
-	background-image: url('../images/layout/sponsorship-b-compressed.jpg');
+	background-image: url('../images/layout/sponsorship-c-compressed.jpg');
 }
 
 .webp .sponsorship-contact {
-	background-image: url('../images/layout/sponsorship-contact-compressed.webp');
+	background-image: url('../images/layout/sponsorship-d-compressed.webp');
 }
 
 .no-webp .sponsorship-contact {
-	background-image: url('../images/layout/sponsorship-contact-compressed.jpg');
+	background-image: url('../images/layout/sponsorship-d-compressed.jpg');
 }
 
 .webp .sponsorship-tickets {
-	background-image: url('../images/layout/sponsorship-tickets-compressed.webp');
+	background-image: url('../images/layout/sponsorship-e-compressed.webp');
 }
 
 .no-webp .sponsorship-tickets {
-	background-image: url('../images/layout/sponsorship-tickets-compressed.jpg');
+	background-image: url('../images/layout/sponsorship-e-compressed.jpg');
 }
 
 .webp .attendee-tickets {
@@ -372,12 +421,12 @@ footer .watermark {
     /*background: #20b2aa;*/
     transform: scale(1.4);
     -webkit-transform: scale(1.4);
-    @apply bg-yellow-500
+    @apply bg-red-pigment-500
 }
 .splide__pagination__page:hover {
     /*cursor: pointer;
     background: #57e1d9;*/
- 	@apply bg-yellow-500 cursor-pointer   
+ 	@apply bg-red-pigment-500 cursor-pointer   
 }
 .splide__pagination__page:focus {
     outline: none;
