@@ -18,21 +18,25 @@
 					<p class="text-lg md:mx-auto md:text-xl lg:text-2xl md:text-center font-semibold leading-tight lg:leading-tight uppercase">The Lighthouse Construction Industry Charity</p>
 				</div>
 				<div>
-					<p class="mt-6 md:mt-6 md:pr-4">The Lighthouse Construction Industry Charity is the only charity that provides financial and emotional support to the construction community and their families who have suffered an injury, illness or just need some extra support.</p>									
+					<p class="mt-6 md:mt-6 md:pr-4">
+						Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Similique voluptate nihil sint vero corrupti ipsum architecto, autem, temporibus rem nobis dicta perspiciatis nulla, dolores in delectus odio, aliquid labore modi.
+					</p>									
 		
 					<div class="w-full flex justify-center mt-6 md:w-1/2 md:float-right md:ml-6 md:mb-6 lg:ml-8 lg:mb-8">
 						<img src="{{ $page->baseUrl }}/assets/images/layout/charity-partner-lighthouse-club-logo.svg" alt="The Lighthouse Club" class="w-3/5 sm:w-1/2 md:w-2/3">
 					</div>
 			
-					<p class="mt-6">The charity provides a 24 /7 Construction Industry Helpline which is the first point of contact to access a range of completely free and confidential support services including:</p>					
+					<p class="mt-6">
+						Lorem ipsum dolor sit amet consectetur adipisicing, elit. Placeat, neque? Nesciunt debitis vero odio ut, culpa molestias quasi possimus, similique, necessitatibus, enim iste nam hic voluptate. Minima quae facere, impedit.
+					</p>					
 					<ul class="list-disc mt-6 ml-6">
-						<li>Emergency Financial aid to construction families in crisis</li>
-						<li>Advice on welfare and mental wellbeing</li>
-						<li>Support on legal, tax and debt management matters</li>					
+						<li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+						<li>Fugiat labore accusamus ducimus assumenda quas maiores, dignissimos nobis tempore repudiandae necessitatibus magnam</li>
+						<li>Soluta iure asperiores nesciunt minus, quasi maxime! Beatae, tempora.</li>					
 					</ul>
-					<p class="mt-6">They have also launched a free Construction Industry Helpline app aimed at people who may not feel ready or comfortable talking about their situation and provides expert advice, self-help tools and easy to use coping strategies.
-					<p class="mt-6">Last year the total spent on charitable services was £1.13M, which included £703,661 of charitable support to construction families in need, £411,962 on education and training and £21,247 on health and safety innovation.</p>
-					<p class="mt-6">The Charity was also chosen to manage a two year, £1.1M CITB funded project to train 300 construction focussed mental health first aiders for the industry.</p>
+					<p class="mt-6">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Placeat, neque? Nesciunt debitis vero odio ut, culpa molestias quasi possimus, similique, necessitatibus, enim iste nam hic voluptate. Minima quae facere, impedit.</p>
+					<p class="mt-6">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Placeat, neque? Nesciunt debitis vero odio ut, culpa molestias quasi possimus, similique, necessitatibus, enim iste nam hic voluptate. Minima quae facere, impedit.</p>
+					<p class="mt-6">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Placeat, neque?</p>
 					
 					<div class="sm:flex sm:justify-center">
 						<div class="text-center">
