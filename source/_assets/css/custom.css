@@ -73,11 +73,11 @@
 }
 
 .webp .host {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33)), url('../images/layout/home-hugh-dennis-compressed.webp');
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/layout/home-hugh-dennis-compressed.webp');
 }
 
 .no-webp .host {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33)), url('../images/layout/home-hugh-dennis-compressed.jpg');
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/layout/home-hugh-dennis-compressed.jpg');
 }
 
 .webp .host-bio {
@@ -291,7 +291,7 @@ footer .watermark {
         @apply mb-4
     }
 
-/* Splide Slider Theme : Sea Green - adapted for SHE Awards colour pallette */
+/* Splide Slider Theme : Sea Green - adapted for FSM Awards colour pallette */
 
 /*! purgecss start ignore */
 @keyframes splide-loading {

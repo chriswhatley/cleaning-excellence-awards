@@ -5,11 +5,11 @@
 /* Splide Carousel/Slider - Core CSS (theme styling in 'custom' css file */
 @import "../../../node_modules/@splidejs/splide/dist/css/splide.min";
 
-/* SHE Awards custom styling */
+/* FSM Awards custom styling */
 @import "custom";
 
 /* DEBUGGING - REMOVE FOR STAGING/PRODUCTION */
-@import "debugging";
+/*@import "debugging";*/
 
 /* Tailwind */
 @import "tailwindcss/utilities";
