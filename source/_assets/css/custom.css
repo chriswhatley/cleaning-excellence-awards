@@ -65,11 +65,11 @@
 }
 
 .webp .hero {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33)), url('../images/layout/hero-1-compressed.webp');
+	background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('../images/layout/hero-4-compressed.webp');
 }
 
 .no-webp .hero {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33)), url('../images/layout/hero-1-compressed.jpg');
+	background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('../images/layout/hero-4-compressed.jpg');
 }
 
 .webp .host {

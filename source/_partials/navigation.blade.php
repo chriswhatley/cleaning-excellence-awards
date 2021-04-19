@@ -11,6 +11,10 @@
             
             <div class="hidden md:flex">                    
                 <div class="mr-16 text-center">
+                    Headline sponsor
+                    <img src="{{ $page->baseUrl }}/assets/images/layout/header-aico.svg" alt="Aico" class="mt-3 w-32">
+                </div>   
+                <div class="mr-16 text-center">
                     In conjunction with
                     <img src="{{ $page->baseUrl }}/assets/images/layout/header-fia.svg" alt="FIA" class="mt-1 w-32">
                 </div>                                                
@@ -96,7 +100,7 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 -mt-1 mr-3">
                                     <path d="M15 9a3 3 0 0 0 3-3h2a5 5 0 0 1-5.1 5 5 5 0 0 1-3.9 3.9V17l5 2v1H4v-1l5-2v-2.1A5 5 0 0 1 5.1 11H5a5 5 0 0 1-5-5h2a3 3 0 0 0 3 3V4H2v2H0V2h5V0h10v2h5v4h-2V4h-3v5z"/>
                                 </svg>
-                                Supporters
+                                Our Supporters
                             </a>
                         </li>
                         <li>

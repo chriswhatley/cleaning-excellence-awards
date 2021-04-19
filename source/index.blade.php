@@ -3,7 +3,6 @@
 	'meta_title' => 'The Fire & Security Matters Awards 2022', 
 	'meta_description' => 'Join more than 550 of your peers for a not to be missed evening celebrating innovation and achievements in the fire and security sectors'])
 
-
 @section('content')
 
     {{-- Hero Image --}}
@@ -57,7 +56,7 @@
             		They are the official awards of market-leading publications Fire Safety Matters and Security Matters and aim to promote the importance of innovation while also underlining the highest standards of excellence.
             	</div>
             	<div class="md:w-1/2 mt-6 md:mt-0 md:px-4">
-            		The Fire & Security Matters Awards will take place in March 2022 at the Ricoh Arena in Coventry. Entries will open in May 2021 and will be free to submit.
+            		The Fire & Security Matters Awards will take place on 28 April 2022 at the Ricoh Arena in Coventry. Entries will open in May 2021 and will be free to submit.
             	</div>
             </div>
 
@@ -130,7 +129,7 @@
         	<div class="container mx-auto grid grid-cols-2 sm:grid-cols-4 gap-6 pt-3 pb-5 bg-white text-usafa-blue-700 font-bold uppercase rounded-md">
         		
         		<div class="px-4 py-2 text-center">
-	        		<h3 class="block text-4xl md:text-5xl lg:text-6xl">550</h3>
+	        		<h3 class="block text-4xl md:text-5xl lg:text-6xl">400</h3>
 	        		<span class="block text-md md:text-xl">Guests</span>
 	        	</div>
 
@@ -278,11 +277,11 @@
 	        			<div class="sm:flex"> 
 	        				<div class="sm:w-2/3 xl:pt-5">
 	        					<h3 class="text-center sm:text-left lg:text-2xl font-bold leading-tight tracking-tight uppercase">Charity Partner</h3>
-	        					<p class="mt-6 md:mt-4 lg:mt-6 sm:pr-4 md:pr-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae minus quaerat ipsa tempora suscipit ipsam, iure blanditiis hic placeat aliquam asperiores deleniti a soluta, dolorem. Assumenda fugiat, eligendi molestias incidunt.</p>	
+	        					<p class="mt-6 md:mt-4 lg:mt-6 sm:pr-4 md:pr-6">The Fire Fighters Charity offers specialist, lifelong support for members of the UK fire services community, empowering individuals to achieve mental, physical and social wellbeing throughout their lives.</p>	
 	        				</div>	    
-	        				<img src="{{ $page->baseUrl }}/assets/images/layout/lighthouse-charity.svg" alt="The Lighthouse Club" class="my-6 sm:my-0 mx-auto w-40 md:w-32 xl:w-48 h-auto">
+	        				<img src="{{ $page->baseUrl }}/assets/images/layout/fire-fighters-charity.svg" alt="The Firefighters Charity" class="my-6 sm:my-0 mx-auto w-64 md:w-32 xl:w-48 h-auto">
 	        			</div>
-		        		<p class="mt-6 sm:mt-4 lg:mt-6">Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Sapiente provident error unde qui accusantium obcaecati aut quasi, fugit voluptates non quod possimus nihil facilis nostrum a quis quidem ipsum ratione!</p>        		
+		        		<p class="mt-6 sm:mt-4 lg:mt-6">The charity provide confidential, personalised support to the whole of the fire services community, delivering mental health, physical health and social wellbeing services at our centres, remotely, online and in communities around the UK.</p>        		
 		        		<div class="mt-10 sm:mt-6 lg:mt-8 text-center">
 		            		<a href="{{ $page->baseUrl }}/charity" class="btn-primary w-4/5 max-w-xs">
 		            			<div class="bg-white w-full rounded p-3 text-blue-900">
@@ -344,7 +343,7 @@
 	                DON’T MISS OUT ON THE INDUSTRY’S MUST ATTEND EVENT OF THE YEAR
 				</h2>
 	            <p class="text-base lg:text-xl mt-6 font-semibold">
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi omnis modi deleniti error tempora eius quis soluta cum, earum impedit ratione illo quae perferendis libero vel totam eveniet. Quae, minus.
+					Tickets are now on sale for the fire and security industries’ must attend networking event. Guests will enjoy a drinks reception with canapes, three-course meal, four bottles of wine per table, magic acts, comedy set from Hugh Dennis, band and live entertainment following the conclusion of the awards.
 	            </p>
 	           
 	            <div class="mt-10 text-center">
@@ -353,7 +352,7 @@
 		        			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-red-pigment-500 inline w-4 h-4 mr-2">
 		        				<path d="M0 10V2l2-2h8l10 10-10 10L0 10zm4.5-4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"></path>
 		        			</svg>
-		        			Register To Attend
+		        			Book <span class="hidden sm:inline-block">your</span> tickets <span class="hidden sm:inline-block">now</span>
 		        		</div>
 	        		</a>
 	        	</div>
