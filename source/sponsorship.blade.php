@@ -8,7 +8,7 @@
 	{{-- Main Content --}}
 	<main class="relative bg-white w-full z-10">
 
-		@include('_components.title-component', ['title' => 'Sponsorship Opportunities', 'background_image' => 'header-b'])
+		@include('_components.title-component', ['title' => 'Sponsorship Opportunities', 'background_image' => 'hero'])
 
 		<section class="container mx-auto md:py-10 px-5 md:px-6">  
 
@@ -32,7 +32,7 @@
 					</div>	
 				</div>
 				<div class="hidden md:block md:w-1/2 md:pl-8">
-					<div class="sponsorship-b w-full h-96 bg-cover bg-top rounded-lg overflow-hidden"></div>
+					<div class="sponsorship-intro w-full h-96 bg-cover bg-top rounded-lg overflow-hidden"></div>
 				</div>
 			</div>
 		</section>
@@ -40,7 +40,7 @@
 		<section class="mt-6 md:mt-0">
 			<div class="w-full mx-auto p-5 md:py-10 text-center bg-red-pigment-500">
 				<div class="container mx-auto">
-					<h3 class="lg:mx-24 text-xl md:text-2xl lg:text-3xl text-white font-bold uppercase tracking-tight leading-tight">Join more than 550 of your peers for a not to be missed evening that celebrates excellence in fire safety &amp security!</h3>
+					<h3 class="lg:mx-24 text-xl md:text-2xl lg:text-3xl text-white font-bold uppercase tracking-tight leading-tight">Join more than 400 of your peers for a not to be missed evening that celebrates excellence in fire safety &amp security!</h3>
 				</div>
 			</div>
 		</section>
@@ -48,13 +48,13 @@
 		<section class="container mx-auto md:flex mt-3 md:mt-6">
 			<div class="w-full flex flex-col p-4 md:w-1/2">
 				<div class="flex flex-col flex-1">
-					<div class="sponsorship-a w-full h-96 bg-cover bg-top rounded-md overflow-hidden"></div>
+					<div class="hero w-full h-96 bg-cover bg-top rounded-md overflow-hidden"></div>
 				</div>
 			</div>
 
 			<div class="w-full flex flex-col py-4 px-4 md:w-1/2">
 				<div class="flex flex-col flex-1 px-6 md:px-4 bg-white rounded-md bg-gray-300">
-					<p class="mt-4 text-center font-bold text-lg tracking-tight font-semibold uppercase xl:mt-8 xl:text-2xl">The SHE Awards offers:</p>
+					<p class="mt-4 text-center font-bold text-lg tracking-tight font-semibold uppercase xl:mt-8 xl:text-2xl">The FSM Awards offers:</p>
 					<ul class="list-disc mt-4 mb-4 mx-6 leading-snug xl:mt-6 xl:mx-10 xl:text-lg">
 						<li>The opportunity to associate your brand with excellence.</li>
 						<li class="mt-2">Reaching thousands of industry professionals before, during and after the event.</li>

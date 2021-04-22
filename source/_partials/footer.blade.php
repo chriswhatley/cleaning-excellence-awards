@@ -231,7 +231,7 @@
                 </div>
                                
 
-                <div class="mt-6 w-full">                       
+                {{-- <div class="mt-6 w-full">                       
                     <div class="mb-1 text-md md:text:lg font-bold text-white tracking-tight uppercase">                            
                        Follow us
                     </div>     
@@ -246,7 +246,7 @@
                             </a>
                         </div>
                     </div> 
-                </div>
+                </div> --}}
 
         	</div> 
         </div>                                	   

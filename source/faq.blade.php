@@ -8,12 +8,12 @@
 	{{-- Main Content --}}
 	<main class="relative bg-white w-full z-10">
 
-		@include('_components.title-component', ['title' => 'FAQs', 'background_image' => 'header-a'])
+		@include('_components.title-component', ['title' => 'FAQs', 'background_image' => 'hero'])
 
 		<section class="container mx-auto px-6">  
 
 			<div class="full my-6 text-lg font-semibold">
-				Below are the most frequently asked questions regarding The Awards. Please <a href="/contact" class="text-red-pigment-500 inline pb-1 border-b-2 border-white hover:border-yellow-500 transition-all duration-300">contact us</a> if you need any further information.
+				Below are the most frequently asked questions regarding The Awards. Please <a href="/contact" class="text-red-pigment-500 inline pb-1 border-b-2 border-white hover:border-red-pigment-500 transition-all duration-300">contact us</a> if you need any further information.
 			</div>
 
 			<div class="mt-6 flex flex-wrap">
@@ -48,7 +48,9 @@
 
 				<div class="mt-4 md:mt-0 w-full md:w-1/2">
 					@include('_partials.map')				
+					<div class="hidden attendee-tickets w-full md:block md:h-96 lg:h-80 mt-6 lg:mt-7 bg-cover bg-top rounded-lg overflow-hidden"></div>
 				</div>
+
 			</div>
 			
 				

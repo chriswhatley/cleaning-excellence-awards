@@ -51,7 +51,7 @@
 
 			<h4>HOW TO CONTACT US</h4>
 			<p>Please contact us if you have any questions about our privacy policy or information we hold about you:</p>
-			<p>By email: <a href="mailto:jmullender@westernbusiness.media" class="font-semibold text-yellow-500 inline-block border-b-2 border-white hover:border-yellow-500 transition-all duration-500">jmullender@westernbusiness.media</a></p>
+			<p>By email: <a href="mailto:jmullender@westernbusiness.media" class="font-semibold text-red-pigment-500 inline-block border-b-2 border-white hover:border-yellow-500 transition-all duration-500">jmullender@westernbusiness.media</a></p>
 			<p>Or write to us at : Western Business Media Ltd, Data department, Dorset House, 64 High Street, East Grinstead, West Sussex, RH19 3DE</p>			
 		</section>	
 	</main>

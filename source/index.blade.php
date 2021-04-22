@@ -24,7 +24,7 @@
 	        			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-red-pigment-500 inline w-4 h-4 mr-2">
 	        				<path d="M0 10V2l2-2h8l10 10-10 10L0 10zm4.5-4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"></path>
 	        			</svg>
-	        			Register To Attend
+	        			Book Your Tickets
 	        		</div>
         		</a>
 
@@ -223,9 +223,9 @@
 						</div>        		
 
 		        		<div class="w-full flex h-56 lg:h-64">
-		        			<div class="w-1/2 sm:w-1/3 h-auto gallery-tile-a"></div>
-		        			<div class="hidden sm:block sm:w-1/3 h-auto gallery-tile-b"></div>
-		        			<div class="w-1/2 sm:w-1/3 h-auto gallery-tile-c"></div>
+		        			<div class="w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/3 h-auto gallery-tile-b"></div>
+		        			<div class="hidden md:block md:w-1/3 lg:hidden xl:block xl:w-1/3 h-auto gallery-tile-a"></div>
+		        			<div class="w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/3 h-auto gallery-tile-c"></div>
 		        		</div>        		
 		        	</div>
 				</div>
@@ -286,7 +286,7 @@
 		            		<a href="{{ $page->baseUrl }}/charity" class="btn-primary w-4/5 max-w-xs">
 		            			<div class="bg-white w-full rounded p-3 text-blue-900">
 			            			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-red-pigment-500 inline w-4 h-4 mr-2">
-			            				<path d="M15.75 8l-3.74-3.75a3.99 3.99 0 0 1 6.82-3.08A4 4 0 0 1 15.75 8zM1.85 15.3l9.2-9.19 2.83 2.83-9.2 9.2-2.82-2.84zm-1.4 2.83l2.11-2.12 1.42 1.42-2.12 2.12-1.42-1.42zM10 15l2-2v7h-2v-5z"/>
+			            				<path d="M10 3.22l-.61-.6a5.5 5.5 0 0 0-7.78 7.77L10 18.78l8.39-8.4a5.5 5.5 0 0 0-7.78-7.77l-.61.61z"/>
 			            			</svg>
 			            			Find Out More
 			            		</div>
@@ -335,8 +335,14 @@
 
        	</section>
 
+       	{{-- Sponsors Carousel --}}
+        <section class="hidden md:flex mt-4 items-center justify-center bg-white">
+			@include('_partials/sponsors-carousel')
+        </section>
+        <div class="w-full h-2 divider"></div>
+
 		{{-- Video --}}
-		<section class="bg-cover bg-top overflow-hidden highlights">
+		<section class="bg-cover bg-center overflow-hidden highlights">
 	        
 			<div class="container mx-auto px-6 py-32 text-white text-center max-w-screen-lg">
 				<h2 class="text-2xl lg:text-4xl font-bold leading-tight tracking-tight uppercase">
@@ -361,9 +367,9 @@
 		</section>        
       
   		{{-- Supporters Carousel --}}
-        <div class="hidden md:flex items-center justify-center bg-white">
+        <section class="hidden md:flex items-center justify-center bg-white">
 			@include('_partials/supporters-carousel')
-        </div>
+        </section>
 
 		{{-- Map --}}
         <section>

@@ -102,35 +102,35 @@ div[class*="gallery-tile-"] {
 }
 
 .webp .gallery-tile-a {
-	background-image: url('../images/layout/home-gallery-tile-a-compressed.webp');
+	background-image: url('../images/layout/home-gallery-tile-d-compressed.webp');
 }
 
 .no-webp .gallery-tile-a {
-	background-image: url('../images/layout/home-gallery-tile-a-compressed.jpg');
+	background-image: url('../images/layout/home-gallery-tile-d-compressed.jpg');
 }
 
 .webp .gallery-tile-b {
-	background-image: url('../images/layout/home-gallery-tile-b-compressed.webp');
+	background-image: url('../images/layout/home-gallery-tile-e-compressed.webp');
 }
 
 .no-webp .gallery-tile-b {
-	background-image: url('../images/layout/home-gallery-tile-b-compressed.jpg');
+	background-image: url('../images/layout/home-gallery-tile-e-compressed.jpg');
 }
 
 .webp .gallery-tile-c {
-	background-image: url('../images/layout/home-gallery-tile-c-compressed.webp');
+	background-image: url('../images/layout/home-gallery-tile-f-compressed.webp');
 }
 
 .no-webp .gallery-tile-c {
-	background-image: url('../images/layout/home-gallery-tile-c-compressed.jpg');
+	background-image: url('../images/layout/home-gallery-tile-f-compressed.jpg');
 }
 
 .webp .highlights {
-	background-image: url('../images/layout/highlights-background-1-compressed.webp');
+	background-image: url('../images/layout/highlights-background-3-compressed.webp');
 }
 
 .no-webp .highlights {
-	background-image: url('../images/layout/highlights-background-1-compressed.jpg');
+	background-image: url('../images/layout/highlights-background-3-compressed.jpg');
 }
 
 footer .watermark {
@@ -177,6 +177,22 @@ footer .watermark {
 	background-image: url('../images/layout/hero-4-compressed.jpg');
 }
 
+.webp .header-e {
+    background-image: url('../images/layout/hero-5-compressed.webp');
+}
+
+.no-webp .header-e {
+    background-image: url('../images/layout/hero-5-compressed.jpg');
+}
+
+.webp .header-f {
+    background-image: url('../images/layout/hero-6-compressed.webp');
+}
+
+.no-webp .header-f {
+    background-image: url('../images/layout/hero-6-compressed.jpg');
+}
+
 .webp .sponsorship-a {
 	background-image: url('../images/layout/sponsorship-a-compressed.webp');
 }
@@ -193,28 +209,36 @@ footer .watermark {
 	background-image: url('../images/layout/sponsorship-b-compressed.jpg');
 }
 
+.webp .sponsorship-intro {
+    background-image: url('../images/layout/sponsorship-intro-compressed.webp');
+}
+
+.no-webp .sponsorship-intro {
+    background-image: url('../images/layout/sponsorship-intro-compressed.jpg');
+}
+
 .webp .sponsorship-brochure {
-	background-image: url('../images/layout/sponsorship-c-compressed.webp');
+	background-image: url('../images/layout/sponsorship-brochure-compressed.webp');
 }
 
 .no-webp .sponsorship-brochure {
-	background-image: url('../images/layout/sponsorship-c-compressed.jpg');
+	background-image: url('../images/layout/sponsorship-brochure-compressed.jpg');
 }
 
 .webp .sponsorship-contact {
-	background-image: url('../images/layout/sponsorship-d-compressed.webp');
+	background-image: url('../images/layout/sponsorship-contact-compressed.webp');
 }
 
 .no-webp .sponsorship-contact {
-	background-image: url('../images/layout/sponsorship-d-compressed.jpg');
+	background-image: url('../images/layout/sponsorship-contact-compressed.jpg');
 }
 
 .webp .sponsorship-tickets {
-	background-image: url('../images/layout/sponsorship-e-compressed.webp');
+	background-image: url('../images/layout/sponsorship-tickets-compressed.webp');
 }
 
 .no-webp .sponsorship-tickets {
-	background-image: url('../images/layout/sponsorship-e-compressed.jpg');
+	background-image: url('../images/layout/sponsorship-tickets-compressed.jpg');
 }
 
 .webp .attendee-tickets {
@@ -255,6 +279,15 @@ footer .watermark {
 
 .no-webp .contact-d {
 	background-image: url('../images/layout/contact-d-compressed.jpg');
+}
+
+
+.webp .contact-e {
+    background-image: url('../images/layout/contact-e-compressed.webp');
+}
+
+.no-webp .contact-e {
+    background-image: url('../images/layout/contact-e-compressed.jpg');
 }
 
 .collage {

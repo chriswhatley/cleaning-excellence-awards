@@ -10,6 +10,7 @@ return [
     'registerURL' => '#',
     'openingDate' => '1st May 2021',
     'collections' => [  'awards',
+                        'sponsors' => ['sort' => 'name'], 
     					'supporters' => ['sort' => 'name'] 
     				],
 ];
