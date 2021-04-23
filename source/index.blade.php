@@ -239,7 +239,7 @@
 
 					<div class="w-full">
 						
-						<div class="px-6 py-16 bg-gray-200 rounded-lg my-6">									
+						<div class="px-6 py-16 bg-gray-100 rounded-lg my-6">									
 							<h3 class="lg:text-2xl font-bold leading-tight tracking-tight uppercase text-usafa-blue-700 text-center">FSM Awards Categories</h3>				    	   	
 			            	<div class="mt-6 text-center">
 			            		<a href="/nominate" class="btn-primary w-4/5 max-w-xs">
@@ -274,14 +274,19 @@
 			
 				<div class="w-full md:w-1/2 items-center">			
 	        		<div class="py-12 md:py-6 lg:pt-12 px-6 lg:px-12 w-full">        			        			
-	        			<div class="sm:flex"> 
-	        				<div class="sm:w-2/3 xl:pt-5">
+	        			
+	        			<div class="xl:flex xl:items-center"> 
+	        				<div class="xl:w-3/5 xl:pt-5">
 	        					<h3 class="text-center sm:text-left lg:text-2xl font-bold leading-tight tracking-tight uppercase">Charity Partner</h3>
 	        					<p class="mt-6 md:mt-4 lg:mt-6 sm:pr-4 md:pr-6">The Fire Fighters Charity offers specialist, lifelong support for members of the UK fire services community, empowering individuals to achieve mental, physical and social wellbeing throughout their lives.</p>	
 	        				</div>	    
-	        				<img src="{{ $page->baseUrl }}/assets/images/layout/fire-fighters-charity.svg" alt="The Firefighters Charity" class="my-6 sm:my-0 mx-auto w-64 md:w-32 xl:w-48 h-auto">
+	        				
+	        				<div class="w-3/5 sm:w-2/5 md:w-4/6 xl:w-2/5 mx-auto mt-2">
+	        					<img class="mx-auto w-full h-auto" src="{{ $page->baseUrl }}/assets/images/layout/fire-fighters-charity.svg" alt="The Firefighters Charity">	
+	        				</div>
+	        				
 	        			</div>
-		        		<p class="mt-6 sm:mt-4 lg:mt-6">The charity provide confidential, personalised support to the whole of the fire services community, delivering mental health, physical health and social wellbeing services at our centres, remotely, online and in communities around the UK.</p>        		
+		        		<p class="mt-6 sm:mt-4 md:mt-6">The charity provide confidential, personalised support to the whole of the fire services community, delivering mental health, physical health and social wellbeing services at our centres, remotely, online and in communities around the UK.</p>        		
 		        		<div class="mt-10 sm:mt-6 lg:mt-8 text-center">
 		            		<a href="{{ $page->baseUrl }}/charity" class="btn-primary w-4/5 max-w-xs">
 		            			<div class="bg-white w-full rounded p-3 text-blue-900">
@@ -296,47 +301,10 @@
 	        	</div>    	
 
 			</div>          	  
-
-			{{-- <div class="w-full sm:flex">
-
-				<div class="w-full sm:w-1/2 px-6 sm:px-3">
-					<div class="px-6 py-16 bg-gray-200 rounded-lg my-6">									
-						<h3 class="lg:text-2xl font-bold leading-tight tracking-tight uppercase text-usafa-blue-700 text-center">FSM Awards Categories</h3>				    	   	
-		            	<div class="mt-6 text-center">
-		            		<a href="{{ $page->baseUrl }}/awards" class="btn-primary w-4/5 max-w-xs">
-		            			<div class="bg-white p-3 text-blue-900">
-			            			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-red-pigment-500 inline w-4 h-4 mr-2">
-			            				<path d="M3 6c0-1.1.9-2 2-2h8l4-4h2v16h-2l-4-4H5a2 2 0 0 1-2-2H1V6h2zm8 9v5H8l-1.67-5H5v-2h8v2h-2z"/>
-			            			</svg>
-			            			Find Out More
-			            		</div>
-		            		</a>
-		            	</div>				
-					</div> 
-				</div>
-
-				<div class="w-full sm:w-1/2 px-6 sm:px-3">
-					<div class="px-6 py-16 bg-usafa-blue-600 rounded-lg my-6">									
-						<h3 class="lg:text-2xl font-bold leading-tight tracking-tight uppercase text-white text-center">FSM Awards</h3>
-		            	<div class="mt-6 text-center">
-		            		<a href="{{ $page->baseUrl }}/shortlist" class="btn-primary bg-gray-800 w-4/5 max-w-xs">
-		            			<div class="bg-white p-3 text-blue-900">
-			            			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-red-pigment-500 inline w-4 h-4 mr-2">
-			            				<path d="M10 12a6 6 0 1 1 0-12 6 6 0 0 1 0 12zm0-3a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm4 2.75V20l-4-4-4 4v-8.25a6.97 6.97 0 0 0 8 0z"/>
-			            			</svg>
-			            			<span class="inline-block md:hidden">Nominate</span> <span class="hidden md:inline-block">Make a nomination</span>
-			            		</div>
-		            		</a>
-		            	</div>
-					</div>
-				</div>
-				
-			</div> --}}
-
        	</section>
 
        	{{-- Sponsors Carousel --}}
-        <section class="hidden md:flex mt-4 items-center justify-center bg-white">
+        <section class="w-full mt-2 pt-4 flex items-center justify-center bg-gray-100">
 			@include('_partials/sponsors-carousel')
         </section>
         <div class="w-full h-2 divider"></div>
