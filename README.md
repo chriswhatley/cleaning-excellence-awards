@@ -1,10 +1,10 @@
-# Fire & Security Matters (FSM) Awards
+# Claning Excellence Awards
 
 ### Author
 Chris Whatley
 
 ### Site
-FSM Awards (https://fsm-awards.netlify.app)
+FSM Awards (https://cleaning-excellence-awards.netlify.app)
 
 ### Built with
 Jigsaw (https://jigsaw.tighten.co/)

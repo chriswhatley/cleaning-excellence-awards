@@ -2,5 +2,5 @@
 
 return [
     'production' => true,
-    'baseUrl' => 'https://fire-security-matters-awards.netlify.app',
+    'baseUrl' => 'https://cleaning-excellence-awards.netlify.app',
 ];
