@@ -71,14 +71,14 @@
                 <div class="lg:w-1/3 xl:w-full">
                     <div class="mt-8">
                         <h3 class="text-md font-bold uppercase">Sponsorship Opportunities</h3>
-                        <h4 class='mt-2'>Leanne Velez - Sales Manager</h4>
+                        <h4 class='mt-2'>Peter Calligeris - Sales Manager</h4>
                     </div>                                
                     
                     <div class="inline-flex items-center mt-2">
                         <svg class="mr-3 w-4 h-4 text-lochmara-500" fill="currentColor" viewBox="0 0 20 20">                               
                             <path d="M20 18.35V19a1 1 0 0 1-1 1h-2A17 17 0 0 1 0 3V1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4c0 .56-.31 1.31-.7 1.7L3.16 8.84c1.52 3.6 4.4 6.48 8 8l2.12-2.12c.4-.4 1.15-.71 1.7-.71H19a1 1 0 0 1 .99 1v3.35z"/>
                         </svg>                        
-                         <a class="footer-link" href="tel:+441342333740">01342 333 740</a> <span class="mx-2 font-bold">|</span> <a class="footer-link" href="tel:+447818574309">07818 574 309</a>
+                         <a class="footer-link" href="tel:+441342333737">01342 333 737</a>
                     </div>                 
 
                     <div>
@@ -86,7 +86,7 @@
                             <svg class="mr-3 w-4 h-4 text-lochmara-500" fill="currentColor" viewBox="0 0 20 20">                               
                                 <path d="M18 2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4c0-1.1.9-2 2-2h16zm-4.37 9.1L20 16v-2l-5.12-3.9L20 6V4l-10 8L0 4v2l5.12 4.1L0 14v2l6.37-4.9L10 14l3.63-2.9z"/>
                             </svg>                        
-                            <a href="mailto:lvelez@westernbusiness.media" class="footer-link">lvelez@westernbusiness.media</a>
+                            <a href="mailto:pcalligeris@westernbusiness.media" class="footer-link">pcalligeris@westernbusiness.media</a>
                         </div> 
                     </div>
                 </div>
@@ -94,14 +94,14 @@
                 <div class="lg:w-1/3 xl:w-full">
                     <div class="mt-8">
                         <h3 class="text-md font-bold uppercase">Awards Entry Enquiries</h3>
-                        <h4 class='mt-2'>Brian Sims - Security Matters Editor</h4>
+                        <h4 class='mt-2'>Chris Shaw - Cleaning Matters Editor</h4>
                     </div>                                
                     
                     <div class="inline-flex items-center mt-2">
                         <svg class="mr-3 w-4 h-4 text-lochmara-500" fill="currentColor" viewBox="0 0 20 20">                               
                             <path d="M20 18.35V19a1 1 0 0 1-1 1h-2A17 17 0 0 1 0 3V1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4c0 .56-.31 1.31-.7 1.7L3.16 8.84c1.52 3.6 4.4 6.48 8 8l2.12-2.12c.4-.4 1.15-.71 1.7-.71H19a1 1 0 0 1 .99 1v3.35z"/>
                         </svg>                        
-                        <a class="footer-link" href="tel:+447500606013">07500 606 013</a>
+                        <a class="footer-link" href="tel:+441342333732">01342 333 732</a>
                     </div>                 
 
                     <div>
@@ -109,7 +109,7 @@
                             <svg class="mr-3 w-4 h-4 text-lochmara-500" fill="currentColor" viewBox="0 0 20 20">                               
                                 <path d="M18 2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4c0-1.1.9-2 2-2h16zm-4.37 9.1L20 16v-2l-5.12-3.9L20 6V4l-10 8L0 4v2l5.12 4.1L0 14v2l6.37-4.9L10 14l3.63-2.9z"/>
                             </svg>                        
-                            <a href="mailto:bsims@westernbusiness.media" class="footer-link">bsims@westernbusiness.media</a>
+                            <a href="mailto:cshaw@westernbusiness.media" class="footer-link">cshaw@westernbusiness.media</a>
                         </div>
                     </div> 
                 </div>
