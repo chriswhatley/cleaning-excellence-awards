@@ -1,20 +1,32 @@
-<div class="container mx-auto py-8">
+<div class="container mx-auto">
+
 	<div class="text-center">
-		<h2 class="text-2xl lg:text-4xl font-bold leading-tight tracking-tight uppercase">Supported by</h2>
-		<a class="inline-block mt-1 mb-2 font-semibold text-red-pigment-600 border-b-2 border-white hover:border-red-pigment-600 transition-all duration-500" href="/supporters#supporters">Find out more about our supporters</a>	
-	</div>
+		<h2 class="text-2xl lg:text-4xl font-bold leading-tight tracking-tight uppercase">Our Supporters</h2>
+        <a class="inline-block mt-1 mb-2 font-semibold text-lochmara-500 border-b-2 border-alto-200 hover:border-lochmara-500 transition-all duration-500" href="/supporters">Find out more about our supporters</a>
+	</div>	
+	
+   <!-- Slider main container -->
+    <div class="swiper-container h-48 mt-10">
+        
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            
+            <!-- Slides -->
+            @foreach($supporters as $supporter)
+                <div class="swiper-slide">
 
-	<div class="splide pt-4">
-		<div class="splide__track mb-6">
-			<ul class="splide__list">
+                    <div class="">
+						<img src="{{ $page->baseUrl }}/assets/images/supporters/{{ $supporter->logo }}.svg" alt="{{ $supporter->name }}">
+					</div>
 
-				@foreach($supporters as $supporter)
-					<li class="splide__slide">
-						<img src="{{ $page->baseUrl }}/assets/images/supporters/carousel/{{ $supporter->logo }}.svg" alt="{{ $supporter->name }}">
-					</li>
-				@endforeach
+                </div>
+            @endforeach
+           
+        </div>
 
-			</ul>
-		</div>
-	</div>	 
-</div>			
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>    
+
+</div>
+		

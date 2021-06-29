@@ -1,7 +1,7 @@
 @extends('_layouts.master', 
 	['page_title' => 'Charity Partner', 
-	'meta_title' => 'The FSM Awards 2020 Charity Partner : The Fire Fighter Charity', 
-	'meta_description' => 'We are delighted to announce that the Lighthouse Construction Industry Charity this year\'s SHE Awards charity partner.'])
+	'meta_title' => 'The CLeaning Excellence Awards Charity Partner : The Fire Fighter Charity', 
+	'meta_description' => 'We are delighted to announce that the Lighthouse Construction Industry Charity this year\'s Awards charity partner.'])
 
 	@section('content')
 
@@ -19,7 +19,7 @@
 				</div>
 				<div>
 					<p class="mt-6 md:mt-6 md:pr-4">
-						The Fire Fighters Charity offers specialist, lifelong support for members of the UK fire services community, empowering individuals to achieve mental, physical and social wellbeing throughout their lives.
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusamus eveniet repudiandae, porro hic, ipsa! Autem repellendus qui dicta culpa, officiis odio aliquid ipsum, dolore saepe nihil iusto molestias dolorem.
 					</p>									
 		
 					<div class="w-full flex justify-center mt-6 md:w-1/2 md:float-right md:ml-6 md:mb-6 lg:ml-8 lg:mb-8">
@@ -27,31 +27,34 @@
 					</div>
 			
 					<p class="mt-6">
-						The charity provide confidential, personalised support to the whole of the fire services community, delivering mental health, physical health and social wellbeing services at our centres, remotely, online and in communities around the UK. 
+						Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Obcaecati ratione repellat, nihil sint eaque, repudiandae velit tempore ducimus officia, laudantium sunt facilis. Et fugit nam a nobis vel doloremque harum?
 					</p>					
-					<p class="mt-6">Championing the health and wellbeing of all those it supports - serving, retired or dependant - it aims to ensure that our beneficiaries can live well, for life. And they’re not all firefighters. The charity exists to support all fire and rescue service personnel, whatever their role in the service. It is are also here for all those who have retired, as well as for spouses and qualifying dependants.</p>
+					<p class="mt-6">Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Ipsa pariatur porro expedita, dicta illum, quos. Mollitia quasi, quia perspiciatis soluta, earum blanditiis consequatur corrupti non alias, porro quisquam, rem deleniti!</p>
+
+					<p class="mt-6">
+					Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Consectetur blanditiis hic ut tenetur inventore officia reiciendis excepturi aperiam delectus enim nostrum ex quidem fugiat labore molestias consequatur ipsum necessitatibus, fuga!</p>
 					
-					<div class="sm:flex sm:justify-center">
+					<div class="sm:flex sm:justify-center mt-12">
 						<div class="text-center">
-							<a href="{{ $page->registerURL }}" class="btn-primary inline-flex items-center justify-center mt-6 text-md sm:text-sm md:text-md">
-								<div class="bg-white w-full rounded p-3 text-blue-900">
-									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-red-pigment-500 inline w-4 h-4 mr-2">
+							<a href="{{ $page->registerURL }}" class="btn-primary">
+		            			<div class="bg-white w-full rounded p-3 text-blue-900">
+			            			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-red-pigment-500 inline w-4 h-4 mr-2">
 										<path d="M0 10V2l2-2h8l10 10-10 10L0 10zm4.5-4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
 									</svg>
-									Book your tickets now
-								</div>
-							</a>
+			            			Book your tickets now
+			            		</div>
+		            		</a>
 						</div>
 
 						<div class="text-center sm:ml-4">
-							<a href="/nominate" class="btn-primary inline-flex items-center justify-center mt-6 text-md sm:text-sm md:text-md">
-								<div class="bg-white w-full rounded p-3 text-blue-900">
-									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-red-pigment-500 inline w-4 h-4 mr-2">
+							<a href="/nominate" class="btn-primary">
+		            			<div class="bg-white w-full rounded p-3 text-blue-900">
+			            			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-red-pigment-500 inline w-4 h-4 mr-2">
 										<path d="M0 10V2l2-2h8l10 10-10 10L0 10zm4.5-4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
 									</svg>
 									Make a Nomination
-								</div>
-							</a>
+			            		</div>
+		            		</a>
 						</div>						
 					</div>
 				</div>

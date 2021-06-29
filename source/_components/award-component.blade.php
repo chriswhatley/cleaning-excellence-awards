@@ -25,26 +25,30 @@
 		<div class="mt-10 xl:flex xl:justify-between xl:items-center">
 
 			{{-- Criteria --}}
-			@if(strlen($award->criteria) > 0)
+			@if( $award->criteria )
 				<div class="w-full sm:w-2/3 md:w-full lg:w-1/2 lg:px-2 mx-auto">
-					<a href="{{ $page->baseUrl }}/assets/docs/{{ $award->criteria }}" class="btn-primary w-full px-4 py-3 font-bold uppercase rounded-lg text-md" target="_blank">
-						<div class="flex justify-center bg-white w-full rounded p-3 text-blue-900">
-							<img src="{{ $page->baseUrl }}/assets/images/icons/compose.svg" alt="Award Criteria Icon" class="w-5 h-5">
-							<span class="ml-2">Award Criteria</span>
-						</div>
-					</a>
+					<a href="/criteria/{{ $award->getFilename() }}" class="btn-primary">
+	                    <div class="flex justify-center bg-white w-full rounded p-3 text-lochmara-500">
+	                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-lochmara-500 inline w-5 h-5 mr-2">
+	                        	<path d="M2 4v14h14v-6l2-2v10H0V2h10L8 4H2zm10.3-.3l4 4L8 16H4v-4l8.3-8.3zm1.4-1.4L16 0l4 4-2.3 2.3-4-4z"/>
+	                        </svg>
+	                        Award Criteria
+	                    </div>
+	                </a>
 				</div>
 			@endif
 
 			{{-- Nominate --}}
 			@if($award->supressNominationLink == FALSE)	
-				<div class="w-full mt-4 sm:w-2/3 md:w-full lg:w-1/2 lg:px-2 xl:mt-0 mx-auto">
-					<a href="{{ $award->nominationURL }}" class="btn-primary w-full px-4 py-3 font-bold uppercase rounded-lg text-md">
-						<div class="flex justify-center bg-white w-full rounded p-3 text-blue-900">
-							<img src="{{ $page->baseUrl }}/assets/images/icons/envelope.svg" alt="Nominate Icon" class="w-5 h-5">
-							<span class="ml-2">Make A Nomination</span>
-						</div>
-					</a>
+				<div class="w-full sm:w-2/3 md:w-full lg:w-1/2 lg:px-2 mx-auto">
+					<a href="{{ $page->nominationURL }}" class="btn-primary">
+	                    <div class="flex justify-center bg-white w-full rounded p-3 text-lochmara-500">
+	                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-lochmara-500 inline w-5 h-5 mr-2">
+								<path d="M18 2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4c0-1.1.9-2 2-2h16zm-4.37 9.1L20 16v-2l-5.12-3.9L20 6V4l-10 8L0 4v2l5.12 4.1L0 14v2l6.37-4.9L10 14l3.63-2.9z"/>
+							</svg>
+							Make A Nomination
+	                    </div>
+	                </a>
 				</div>
 			@endif
 				

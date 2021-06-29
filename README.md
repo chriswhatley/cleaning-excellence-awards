@@ -1,10 +1,10 @@
-# Claning Excellence Awards
+# Cleaning Excellence Awards
 
 ### Author
 Chris Whatley
 
 ### Site
-FSM Awards (https://cleaning-excellence-awards.netlify.app)
+Cleaning Excellence Awards (https://cleaning-excellence-awards.netlify.app)
 
 ### Built with
 Jigsaw (https://jigsaw.tighten.co/)

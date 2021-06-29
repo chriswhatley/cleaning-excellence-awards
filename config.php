@@ -7,9 +7,18 @@ return [
     'awardsDate' => '17th November 2021',
     'awardsDeadline' => '31st August 2021',
     'registerURL' => '#',
+    'nominationURL' => '/nominate',
     'openingDate' => '1st July 2021',
-    'collections' => [  'awards',
-                        'sponsors' => ['sort' => 'name'], 
-    					'supporters' => ['sort' => 'name'] 
+    'collections' => [  
+                        'awards' => [
+                            'sort' => 'title',
+                            'criteria_path' => 'criteria/{path}'
+                        ],
+                        'criteria' => [
+                            'criterion' => 'Award Name', // Default award name, if not provided in award criteria markdown
+                            'sort' => 'title',
+                            'path' => '{collection}/{filename}',
+                        ],
+    					'supporters' => ['sort' => 'sort_order'] 
     				],
 ];

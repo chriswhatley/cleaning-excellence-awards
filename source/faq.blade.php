@@ -37,7 +37,7 @@
 								<div class="relative overflow-hidden transition-all max-h-0 duration-500" x-bind:style="faq_selected === index ? `max-height:  ${ $el.scrollHeight }px` : ``">
 									<div class="mt-2 mx-3">
 										<template x-for="(ans, index) in item.answer" :key="'item-ans-{$index}'">
-											<p x-text="ans"></p>
+											<p x-html="ans"></p>
 										</template>
 									</div>
 								</div>
@@ -47,7 +47,7 @@
 				</div>
 
 				<div class="mt-4 md:mt-0 w-full md:w-1/2">
-					@include('_partials.map')				
+					<div class="faq-a w-full h-96 bg-cover bg-top rounded-lg overflow-hidden"></div>		
 					<div class="hidden attendee-tickets w-full md:block md:h-96 lg:h-80 mt-6 lg:mt-7 bg-cover bg-top rounded-lg overflow-hidden"></div>
 				</div>
 

@@ -25,33 +25,33 @@ window.faq = [
     ]
 },
 {
-    question: "When do entries open for the FSM Awards 2022?",
+    question: "When do entries open for the Cleaning Excellence Awards 2022?",
     answer: [
-    "1st May 2021 is the opening date for entries."
+    "1st July 2021 is the opening date for entries."
     ]
 },
 {
     question: "When do entries close?",
     answer: [
-    "Entries will close on 30th November 2021 at 11:59pm."
+    "Entries will close on 30th August 2021 at 11:59pm."
     ]
 },
 {
     question: "How do I enter the Awards?",
     answer: [
-    "You enter online via our entries page and select the category you wish to enter. Please make sure you fill in all the entry fields and provide accurate contact information. When entries open on 1 May 2021 you can <a href=\"/nominate\" class=\"text-yellow-500 font-semibold\">enter nominations here</a>."
+    "You enter online via our entries page and select the category you wish to enter. Please make sure you fill in all the entry fields and provide accurate contact information. When entries open on 1 July 2021 you can <a href=\"/nominate\" class=\"text-lochmara-500 font-semibold\">enter nominations here</a>."
     ]
 },
 {
     question: "When will the shortlist be revealed?",
     answer: [
-    "We will announce the shortlist in February 2022."
+    "We will announce the shortlist in October 2021."
     ]
 },
 {
     question: "When will the winners be revealed?",
     answer: [
-    "Winners will be announced at The FSM Awards, taking place on 26th April 2022."
+    "Winners will be announced at The Cleaning Excellence Awards, taking place on 17th November 2021."
     ]
 },
 // {
@@ -63,19 +63,51 @@ window.faq = [
 {
     question: "What should I do if I've got further questions or am unsure if my entry is eligible?",
     answer: [
-    "If you have any further questions then please contact us by <a href=\"/contact\" class=\"text-yellow-500 font-semibold\">clicking HERE</a>."
+    "If you have any further questions then please contact us by <a href=\"/contact\" class=\"text-lochmara-500 font-semibold\">clicking HERE</a>."
     ]
 }
 ];
 
-// Sponsor Carousel 
-import Splide from '@splidejs/splide';
-new Splide( '.splide', {
-    type        : 'loop',
-    speed       : '500',
-    perPage     : 6,
-    perMove     : 1,
-    autoplay    : true,
-    pauseOnHover: false,
-    arrows      : false,
-} ).mount();
+import Swiper from 'swiper/bundle';
+
+const swiper = new Swiper('.swiper-container', {
+  slidesPerView: 5,
+    spaceBetween: 30,
+    loop: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },   
+    grabCursor: true, 
+    breakpoints: {
+      // when window width is >= 0px
+      0: {
+        slidesPerView: 2,
+        spaceBetween: 20
+      },
+      // when window width is >= 640px
+      640: {
+        slidesPerView: 3,
+        spaceBetween: 30
+      },
+      // when window width is >= 768px
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 40
+      },
+      // when window width is >= 1024px
+      1024: {
+        slidesPerView: 4,
+        spaceBetween: 40
+      },
+      // when window width is >= 1280px
+      1280: {
+        slidesPerView: 5,
+        spaceBetween: 50
+      }
+    }
+});
