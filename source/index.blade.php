@@ -299,7 +299,7 @@
 		        			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-red-pigment-500 inline w-4 h-4 mr-2">
 		        				<path d="M0 10V2l2-2h8l10 10-10 10L0 10zm4.5-4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"></path>
 		        			</svg>
-		        			Book <span class="hidden sm:inline-block">your</span> tickets <span class="hidden sm:inline-block">now</span>
+		        			Book <span class="hidden sm:inline-block">your</span> place <span class="hidden sm:inline-block">now</span>
 		        		</div>
 	        		</a>
 	        	</div>
