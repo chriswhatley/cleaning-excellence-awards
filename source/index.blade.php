@@ -1,7 +1,7 @@
 @extends('_layouts.master', 
 	['page_title' => 'Home', 
 	'meta_title' => 'The Cleaning Excellence Awards 2021', 
-	'meta_description' => 'Join more than 550 of your peers for a not to be missed evening celebrating innovation and achievements in the fire and security sectors'])
+	'meta_description' => 'The Cleaning Excellence Awards shine a spotlight on the most innovative products, services and individuals. From technological innovations and smart solutions, to sustainability and individual commitment, the awards celebrate standards of excellence throughout the professional cleaning and hygiene sector.'])
 
 @section('content')
 

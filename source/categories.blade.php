@@ -1,7 +1,7 @@
 @extends('_layouts.master', 
 	['page_title' => 'Awards Categories', 
-	'meta_title' => 'Associate your brand with excellence at The Fire & Security Matters Awards', 
-	'meta_description' => 'Reach thousands of industry professionals before, during and after the event, network with the industry’s most influential people and a unique opportunity to position your organisation as an industry leader!'])
+	'meta_title' => 'The Cleaning Excellence Awards will be broadcast virtually alongside our new interactive Digital conference; Cleaning Matters Live', 
+	'meta_description' => 'The Cleaning Excellence Awards shine a spotlight on the most innovative products, services and individuals. From technological innovations and smart solutions, to sustainability and individual commitment, the awards celebrate standards of excellence throughout the professional cleaning and hygiene sector.'])
 
 @section('content')
 

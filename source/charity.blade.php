@@ -1,7 +1,7 @@
 @extends('_layouts.master', 
 	['page_title' => 'Charity Partner', 
-	'meta_title' => 'The CLeaning Excellence Awards Charity Partner : The Fire Fighter Charity', 
-	'meta_description' => 'We are delighted to announce that the Lighthouse Construction Industry Charity this year\'s Awards charity partner.'])
+	'meta_title' => 'The Cleaning Excellence Awards Charity Partner : The Hygiene Bank', 
+	'meta_description' => 'We are delighted to announce that The Hygiene Bank Charity this year\'s Awards charity partner.'])
 
 	@section('content')
 

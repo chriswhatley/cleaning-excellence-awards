@@ -1,7 +1,7 @@
 @extends('_layouts.master', 
 	['page_title' => 'Frequently Asked Questions', 
-	'meta_title' => 'Don’t miss out on this great night of entertainment and networking as we toast the best in the health, safety and fire safety sectors.', 
-	'meta_description' => 'Venue, travel and dietary information and more. '])
+	'meta_description' => 'Don’t miss out on this great night of entertainment and networking as we toast the best in the cleaning & hygiene sector.', 
+	'meta_title' => 'Frequently Asked Questions'])
 
 	@section('content')
 

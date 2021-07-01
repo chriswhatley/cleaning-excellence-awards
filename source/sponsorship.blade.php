@@ -1,7 +1,7 @@
 @extends('_layouts.master', 
 	['page_title' => 'Sponsorship', 
-	'meta_title' => 'The Awards Shortlist for the 2020 Safety & Health Excellence Awards', 
-	'meta_description' => 'Join more than 550 of your peers for a not to be missed evening that celebrates excellence in health and safety!'])
+	'meta_title' => 'The Cleaning Excellence Awards : Sponsorship Opportunities', 
+	'meta_description' => 'Don\'t miss the opportunity to associate your brand with excellence. Reaching thousands of industry professionals before, during and after the event. Networking with the industry’s most influential people.'])
 
 	@section('content')
 

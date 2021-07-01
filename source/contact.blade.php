@@ -1,7 +1,7 @@
 @extends('_layouts.master', 
 	['page_title' => 'Contact Us', 
-	'meta_title' => 'Get in touch with The Safety & Health Excellence Awards Team', 
-	'meta_description' => 'Join more than 550 of your peers for a not to be missed evening that celebrates excellence in health and safety!'])
+	'meta_title' => 'Get in touch with The Cleaning Excellence Awards Team', 
+	'meta_description' => 'Join more than 400 of your peers for a not to be missed evening that celebrates cleaning & hygiene excellence!'])
 
 	@section('content')
 

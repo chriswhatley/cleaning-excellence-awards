@@ -1,7 +1,7 @@
 @extends('_layouts.master', 
-	['page_title' => 'Frequently Asked Questions', 
-	'meta_title' => 'Don’t miss out on this great night of entertainment and networking as we toast the best in the health, safety and fire safety sectors.', 
-	'meta_description' => 'Venue, travel and dietary information and more. '])
+	['page_title' => ' Privacy & Cookie Policy', 
+	'meta_title' => 'Cleaning Excellence Awards : Privacy & Cookie Policy', 
+	'meta_description' => ' Privacy & Cookie Policy '])
 
 	@section('content')
 

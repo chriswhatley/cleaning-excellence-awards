@@ -1,7 +1,7 @@
 @extends('_layouts.master', 
-	['page_title' => 'THE FSM Awards 2022 Supporters ', 
-	'meta_title' => 'The FSM Awards 2022 Supporters', 
-	'meta_description' => 'The Fire & Security Matters Awards celebrate innovation and achievements in the Fire and security sectors.'])
+	['page_title' => 'The Cleaning Excellence Awards Supporters', 
+	'meta_title' => 'The Cleaning Excellence Awards Supporters', 
+	'meta_description' => 'The Cleaning Excellence Awards celebrates innovation and achievements in the cleaning & hygiene sector.'])
 
 @section('content')
 
