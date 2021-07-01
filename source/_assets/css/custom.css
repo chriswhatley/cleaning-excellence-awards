@@ -317,3 +317,14 @@ footer .watermark {
     p {
         @apply mb-4
     }
+
+.swiper-pagination-bullet {
+	@apply w-4 h-4
+}
+
+@screen md {
+    .swiper-pagination-bullet {
+ 		@apply w-2 h-2
+ 	}
+}
+ 

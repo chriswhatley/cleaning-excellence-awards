@@ -2,15 +2,15 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 
-/* Cleaning Excellence Awards custom styling */
-@import "custom";
-
 /*! purgecss start ignore */
 @import "swiper/swiper-bundle";
 /*! purgecss end ignore */
 
+/* Cleaning Excellence Awards custom styling */
+@import "custom";
+
 /* DEBUGGING - REMOVE FOR STAGING/PRODUCTION */
-@import "debugging";
+/*@import "debugging";*/
 
 /* Tailwind */
 @import "tailwindcss/utilities";
