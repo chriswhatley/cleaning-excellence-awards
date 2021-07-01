@@ -19,12 +19,12 @@
             </h1>    
 
         	<div class="pt-12 px-6">
-        		<a href="{{ $page->registerURL }}" target="_blank" class="btn-primary md:w-2/5 max-w-xs text-xs md:text-base md:text-md lg:text-lg">
+        		<a href="{{ $page->registerURL }}" rel="noopener" target="_blank" class="btn-primary md:w-2/5 max-w-xs text-xs md:text-base md:text-md lg:text-lg">
         			<div class="bg-white w-full rounded p-3">
 	        			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-red-pigment-500 inline w-4 h-4 mr-2">
 	        				<path d="M0 10V2l2-2h8l10 10-10 10L0 10zm4.5-4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"></path>
 	        			</svg>
-	        			Book Your Tickets
+	        			Register to Attend
 	        		</div>
         		</a>
 
@@ -250,16 +250,20 @@
 	        			
 	        			<div class="xl:flex xl:items-center"> 
 	        				<div class="xl:w-3/5 xl:pt-5">
-	        					<h3 class="text-center sm:text-left lg:text-2xl font-bold leading-tight tracking-tight uppercase">Charity Partner</h3>
-	        					<p class="mt-6 md:mt-4 lg:mt-6 sm:pr-4 md:pr-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim quam, veritatis, labore, modi reiciendis qui ex aspernatur tenetur sapiente assumenda officia tempora, perspiciatis? Similique ipsum assumenda quod hic quisquam excepturi.</p>	
+	        					<h3 class="text-center sm:text-left lg:text-2xl font-bold leading-tight tracking-tight uppercase">Charity Partner:<br />The Hygiene Bank</h3>
+	        					<p class="mt-6 md:mt-4 lg:mt-6 sm:pr-4 md:pr-6">
+									The Hygiene Bank brings communities, businesses and thought leaders together to tackle hygiene poverty by giving access to products and being a voice for change. 
+								</p>
+								<p class="mt-6 md:mt-4 lg:mt-6 sm:pr-4 md:pr-6">
+									You can donate to this fantastic charity at <a href="https://thehygienebank.com/donate/" target="_blank" class="text-lochmara-500 font-semibold" rel="noopener">thehygienebank.com/donate</a>
+	        					</p>	
 	        				</div>	    
 	        				
 	        				<div class="w-3/5 sm:w-2/5 md:w-4/6 xl:w-2/5 mx-auto mt-2">
-	        					<img class="mx-auto w-full h-auto" src="{{ $page->baseUrl }}/assets/images/layout/fire-fighters-charity.svg" alt="The Firefighters Charity">	
+	        					<img class="mx-auto w-full h-auto" src="{{ $page->baseUrl }}/assets/images/layout/the-hygiene-bank-logo.svg" alt="The Hygiene Bank">	
 	        				</div>
-	        				
 	        			</div>
-		        		<p class="mt-6 sm:mt-4 md:mt-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae accusamus sunt iure debitis dolor molestiae nam reprehenderit aliquid, ducimus molestias dolore voluptatum iste, eos, doloribus sapiente voluptates cumque eligendi laborum.</p>        		
+
 		        		<div class="mt-10 sm:mt-6 lg:mt-8 text-center">
 		            		<a href="{{ $page->baseUrl }}/charity" class="btn-primary w-4/5 max-w-xs">
 		            			<div class="bg-white w-full rounded p-3 text-blue-900">
@@ -290,16 +294,16 @@
 	                DON’T MISS OUT ON THE INDUSTRY’S MUST ATTEND EVENT OF THE YEAR
 				</h2>
 	            <p class="text-base lg:text-xl mt-6 font-semibold">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure debitis, numquam sed, tenetur eius repellendus? Magnam nulla minus voluptas, explicabo adipisci libero suscipit aspernatur iste harum voluptatum doloremque officia esse.
+					The Cleaning Excellence Awards form part of Cleaning Matters Live, which is an online digital conference that offers both extensive networking and CPD. The event and the awards take place on 17 November 2021 and will celebrate innovation and standards from across the cleaning sector.
 	            </p>
 	           
 	            <div class="mt-10 text-center">
-	        		<a href="{{ $page->registerURL }}" class="btn-primary w-4/5 max-w-xs">
+	        		<a href="{{ $page->registerURL }}" class="btn-primary w-4/5 max-w-xs" target="_blank" rel="noopener">
 	        			<div class="bg-white w-full rounded p-3 text-blue-900">
 		        			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-red-pigment-500 inline w-4 h-4 mr-2">
 		        				<path d="M0 10V2l2-2h8l10 10-10 10L0 10zm4.5-4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"></path>
 		        			</svg>
-		        			Book <span class="hidden sm:inline-block">your</span> place <span class="hidden sm:inline-block">now</span>
+		        			Register to Attend
 		        		</div>
 	        		</a>
 	        	</div>

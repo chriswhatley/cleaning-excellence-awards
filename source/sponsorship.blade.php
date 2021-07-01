@@ -13,15 +13,19 @@
 		<section class="container mx-auto md:py-10 px-5 md:px-6">  
 
 			<div class="hidden md:block md:w-full md:mb-4">
-				<p class="uppercase leading-tight text-xl font-semibold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta placeat quam in blanditiis cumque ea at tempore sint praesentium provident mollitia fugit, magni similique eaque nisi possimus, laborum ut iure.</p>		
+				<p class="uppercase leading-tight text-xl font-semibold">Launched by Cleaning Matters magazine, The Cleaning Excellence Awards will be broadcast virtually as part of Cleaning Matters Live – 17th November 2021.</p>		
 			</div>
 
 			<div class="md:flex md:mt-6">
 				<div class="md:w-1/2 xl:mt-6">
-					<p class="mt-6 md:mt-0">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Laborum blanditiis deserunt dolore ipsum adipisci repellendus, enim, quos esse facere quas mollitia, recusandae molestiae est amet sunt eum asperiores animi doloremque.</p>
-					<p class="mt-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat voluptatum, quam odio praesentium, suscipit amet nostrum neque earum ut sapiente laborum? Amet corporis tempore quia eligendi, laboriosam quam porro.</p>
+					<p class="mt-6 md:mt-0">
+						The Cleaning Excellence Awards shine a spotlight on the most innovative products, services and individuals. From technological innovations and smart solutions, to sustainability and individual commitment, the awards celebrate standards of excellence throughout the professional cleaning and hygiene sector.
+					</p>
+					<p class="mt-6 md:mt-0">
+						Supported by key industry bodies; ISSA (International Sanitary Suppliers Association), BPCA (British Pest Control Assocation) and NCCA (National Carpet Cleaning Association.
+					</p>
 					<div class="mt-4 text-center md:text-left">
-						<a href="#" target="_blank" class="btn-primary mt-4 text-md sm:text-sm md:text-md">
+						<a href="/assets/docs/cleaning-matters-digital-conference-brochure.pdf" target="_blank" class="btn-primary mt-4 text-md sm:text-sm md:text-md">
 							<div class="bg-white w-full rounded p-3 text-blue-900">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-red-pigment-500 inline w-4 h-4 mr-2">
 									<path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/>

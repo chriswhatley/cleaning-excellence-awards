@@ -43,7 +43,7 @@
 		            		</div>
 	            		</a>
 
-	            		<a href="{{ $page->awardsURL }}" class="btn-primary w-4/5 max-w-xs mt-6 md:mt-0 md:ml-6">		            	
+	            		<a href="{{ $page->registerURL }}" class="btn-primary w-4/5 max-w-xs mt-6 md:mt-0 md:ml-6" target="_blank" rel="noopener">		            	
 	        				<div class="bg-white w-full rounded p-3 text-blue-900">
 		            			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-lochmara-700 inline w-4 h-4 mr-2">
 			        				<path d="M0 10V2l2-2h8l10 10-10 10L0 10zm4.5-4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>

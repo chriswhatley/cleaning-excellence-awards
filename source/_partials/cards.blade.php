@@ -9,7 +9,7 @@
 					This unmissable networking event, brought to you by the publishers of Cleaning Matters journal.
 				</p>
 			</div>
-			<a href="#" target="_blank" class="btn-primary inline-flex items-center justify-center mt-4 text-md sm:text-sm md:text-md">
+			<a href="/assets/docs/cleaning-matters-digital-conference-brochure.pdf" target="_blank" class="btn-primary inline-flex items-center justify-center mt-4 text-md sm:text-sm md:text-md">
 				<div class="bg-white w-full rounded p-3 text-blue-900">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-rlochmara-500 inline w-4 h-4 mr-2">
 						<path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/>
@@ -44,12 +44,12 @@
 		<div class="sponsorship-tickets h-48 bg-cover overflow-hidden border-b-4 border-lochmara-500 rounded-t-md"></div>
 		<div class="flex flex-col flex-1 px-10 py-6 bg-gray-300 rounded-b-md">
 			<div class="flex-1">
-				<h2 class="text-gray-900 text-lg font-bold leading-snug uppercase text-center">Buy Tickets</h2>
+				<h2 class="text-gray-900 text-lg font-bold leading-snug uppercase text-center">Register To Attend</h2>
 				<p class="mt-2 text-md">
 					Join more than 400 of your peers at the industry’s biggest networking evening of the year.
 				</p>
 			</div>
-			<a href="{{ $page->registerURL }}" class="btn-primary inline-flex items-center justify-center mt-4 text-md sm:text-sm md:text-md">
+			<a href="{{ $page->registerURL }}" target="_blank" rel="noopener" class="btn-primary inline-flex items-center justify-center mt-4 text-md sm:text-sm md:text-md">
 				<div class="bg-white w-full rounded p-3 text-blue-900">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-red-pigment-500 inline w-4 h-4 mr-2">
 						<path d="M0 10V2l2-2h8l10 10-10 10L0 10zm4.5-4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>

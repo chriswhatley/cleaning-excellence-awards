@@ -8,7 +8,7 @@
 	{{-- Main Content --}}
 	<main class="relative bg-white w-full z-10">
 
-		@include('_components.title-component', ['title' => 'Privacy & Cookie Policy', 'background_image' => 'header-a'])
+		@include('_components.title-component', ['title' => 'Privacy & Cookie Policy', 'background_image' => 'hero'])
 
 		<section class="container mx-auto px-6 py-6 md:py-10 smallprint">  
 
@@ -51,7 +51,7 @@
 
 			<h4>HOW TO CONTACT US</h4>
 			<p>Please contact us if you have any questions about our privacy policy or information we hold about you:</p>
-			<p>By email: <a href="mailto:jmullender@westernbusiness.media" class="font-semibold text-red-pigment-500 inline-block border-b-2 border-white hover:border-yellow-500 transition-all duration-500">jmullender@westernbusiness.media</a></p>
+			<p>By email: <a href="mailto:jmullender@westernbusiness.media" class="font-semibold text-lochmara-500 inline-block border-b-2 border-white hover:border-lochmara-500 transition-all duration-500">jmullender@westernbusiness.media</a></p>
 			<p>Or write to us at : Western Business Media Ltd, Data department, Dorset House, 64 High Street, East Grinstead, West Sussex, RH19 3DE</p>			
 		</section>	
 	</main>

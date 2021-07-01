@@ -127,7 +127,7 @@
                         	</a>
                         </li>                            
                         <li>
-                        	<a href="{{ $page->registerURL }}" class="nav-item bg-red-pigment-500 sm:bg-transparent">
+                        	<a href="{{ $page->registerURL }}" class="nav-item bg-red-pigment-500 sm:bg-transparent" target="_blank" rel="noopener">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current text-white inline w-4 h-4 -mt-1 mr-3">
                                     <path d="M0 10V2l2-2h8l10 10-10 10L0 10zm4.5-4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
                                 </svg>

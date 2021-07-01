@@ -6,7 +6,7 @@ return [
     'siteTitle' => 'Cleaning Excellence Awards',
     'awardsDate' => '17th November 2021',
     'awardsDeadline' => '31st August 2021',
-    'registerURL' => '#',
+    'registerURL' => 'https://www.cleaningmatterslive.co.uk/',
     'nominationURL' => '/nominate',
     'openingDate' => '1st July 2021',
     'collections' => [  
